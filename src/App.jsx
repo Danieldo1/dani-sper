@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react"
 import { HashLoader } from "react-spinners"
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Works, Tech, StarsCanvas} from "./components"
+import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
+import {About, Contact, Experience, Hero, Navbar, Works, Tech, StarsCanvas} from "./components"
 
 
 const App=()=> {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   
   useEffect(() => {
     const simulateAsyncOperation = () => {
@@ -29,15 +30,15 @@ const App=()=> {
        />
         ) : (
           <BrowserRouter>
-          <div className="relative z-0 bg-primary" >
-            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <div className="relative z-0 dark:bg-primary light: bg-purple-100" >
+            <div className="dark:bg-hero-pattern bg-cover bg-no-repeat bg-center  light: bg-light-pattern">
               <Navbar/>
               <Hero/>
             </div>
             <About/>
+            <Works/>
             <Experience/>
             <Tech/>
-            <Works/>
             {/* <Feedbacks/> */}
             <div className="relative z-0">
               <Contact/>

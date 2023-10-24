@@ -12,6 +12,63 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+/* box work dark */
+.dark .vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d3c8d6;
+  color: #915eff;
+}
+.dark .vertical-timeline-element-date{
+  color: #d3c8d6;
+}
+.dark .vertical-timeline-element-content-arrow{
+  border-right: 7px solid #151030;
+}
+.dark .vertical-timeline-element-content.bounce-in {
+  background-color: #151030;
+  border-radius: 10px;
+    visibility: visible;
+    -webkit-animation: cd-bounce-2-inverse .6s;
+    animation: cd-bounce-2-inverse .6s;
+}
+
+.vertical-timeline-element:first-child {
+  margin-top: -30px;
+}
+/* box light */
+
+/* line  */
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #b8acbb;
+  color: #205bfe;
+}
+.vertical-timeline-element-date{
+  color: #a197a3;
+}
+.vertical-timeline-element-content-arrow{
+  border-right: 7px solid #cfc2d2;
+}
+ .vertical-timeline-element-content.bounce-in {
+  background-color: #cfc2d2;
+  border-bottom: 3px solid #151030;
+  border-radius: 10px;
+    visibility: visible;
+    -webkit-animation: cd-bounce-2-inverse .6s;
+    animation: cd-bounce-2-inverse .6s;
+}
+
+
 
 .hash-span {
   margin-top: -100px;
@@ -33,7 +90,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
+.dark .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
@@ -43,7 +100,17 @@
   );
 }
 
-.green-pink-gradient {
+.coral-gradient {
+  background: #FF3A55; /* Your main color */
+  background: linear-gradient(-90deg, #FF3A55 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #FF3A55 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.dark .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
@@ -202,3 +269,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* .dark {
+  @apply bg-gray-800 text-zinc-50;
+} */

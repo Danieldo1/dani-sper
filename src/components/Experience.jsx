@@ -8,31 +8,34 @@ import {experiences} from '../constants/index'
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
+
 const ExperienceCard = ({experience}) => (
+ 
 
   <VerticalTimelineElement
-  contentStyle={{background: "#1d1836", color: "#fff"}}
+  contentStyle={{background: "dark:#1d1836 light: #cfc2d2", color: "#fff"}}
+
   contentArrowStyle={{borderRight: "7px solid  #232631"}}
   date={experience.date}
   iconStyle={{background: experience.iconBg}}
   icon={<div className='flex justify-center w-full h-full items-center'>
     <img src={experience.icon}
     alt={experience.company_name}
-    className='w-[60%] h-[60%] object-contain'
+    className=  'w-[60%] h-[60%] object-contain'
     />
   </div>}
   >
     <div>
       {/* Icon for companies */}
-      <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+      <h3 className='dark:text-white light: text-midnight-100 text-[24px] font-bold'>{experience.title}</h3>
       {/* Name of companies */}
-      <p className='text-secondary text-[16px] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
+      <p className='dark:text-secondary light: text-midnight-400 text-[16px] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
 
     </div>
     {/* Description of Experience */}
     <ul className='mt-5 list-disc ml-5 space-y-2'>
   {experience.points.map((point, index) => (
-    <li key={`experience-point-${index}`} className='text-white-100 text-[14px] pl-1 tracking-wider '>
+    <li key={`experience-point-${index}`} className='dark:text-white-100 light: text-midnight-300 text-[14px] pl-1 tracking-wider '>
       {point}
     </li>
   ))}
@@ -47,8 +50,8 @@ const Experience = () => {
     <>
     {/* Heading for the work */}
     <motion.div variants={textVariant()}>
-    <p className={`${styles.sectionSubText}`} >What I have done so far...</p>
-      <h2 className={`${styles.sectionHeadText}`} >Work Experience</h2>
+    <p className={`${styles.sectionSubText} dark:text-white light: text-midnight-100`} >What I have done so far...</p>
+      <h2 className={`${styles.sectionHeadText} dark:text-white light: text-midnight-100`} >Work Experience</h2>
     </motion.div>
 
     <div className='mt-20 flex flex-col'>

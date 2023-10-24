@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 import { styles } from '../styles'
 import { staggerContainer } from '../utils/motion'
 
-// Animation for the components to fade in
+// Keep same pref for some text blocks 
 const SectionWrapper = (Component, idName) => function HOC(){
     return(
         <motion.section

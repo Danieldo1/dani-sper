@@ -11,31 +11,25 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`} >
         <div className='flex flex-col justify-center items-center mt-5' >
           {/* circle purple */}
-          <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
+          <div className='w-5 h-5 rounded-full dark:bg-[#915eff] light: bg-coral'/>
           {/* dash line */}
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-1 sm:h-80 h-40 coral-gradient violet-gradient' />
         </div>
 
-        <div>
+        <div >
           {/* My Intro name */}
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Daniil</span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
+          <h1 className={`${styles.heroHeadText} dark:text-white light: text-midnight-100`}>Hi, I'm <span className='dark:text-[#915eff] light: text-coral'>Daniil</span></h1>
+        <p className={`${styles.heroSubText} mt-2 dark:text-white-100 light: text-black`}>
         A passionate and aspiring web developer <br className='hidden sm:block'/>
        with a knack for turning ideas into beautiful, functional websites.
         </p>
         </div>
       </div>
 
-
-      
-    {/* Add cool loader */}
-
-
-
     <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
       <a href='#about'>
         <div className='w-[35px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-          <motion.dev 
+          <motion.div 
             animate={{
               y: [0,24,0]
             }}
