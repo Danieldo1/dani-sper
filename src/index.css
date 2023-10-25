@@ -79,15 +79,11 @@
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
+    180deg, rgba(173,60,105,1) 1%, rgba(55,47,83,1) 88%
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    180deg, rgba(173,60,105,1) 1%, rgba(55,47,83,1) 88%
+  ); 
 }
 
 .dark .violet-gradient {

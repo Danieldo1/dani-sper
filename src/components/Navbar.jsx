@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import FancyText from '@carefully-coded/react-text-gradient'
 import DarkModeToggle from "./DarkModeToggle";
+
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -24,11 +26,17 @@ const Navbar = () => {
           }}
         >
           {/* LOGO GOES HERE */}
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="  dark:text-white text-[18px] font-bold cursor-pointer flex light: text-coral-400">
+          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+          <FancyText
+      gradient={{ from: '#b50717', to: '#ad3c69', type: 'linear' }}
+      animateTo={{ from: '#794980', to: '#372f53' }}
+      animateDuration={4000}
+    >
+          <p className="  dark:text-white text-[25px] font-bold cursor-pointer flex light: text-coral-400">
             Daniil&nbsp;
             <span className="sm:block hidden">| Web Developer</span>
           </p>
+          </FancyText>
           {/* ENDS HERE */}
         </Link>
            <DarkModeToggle />
@@ -63,7 +71,7 @@ const Navbar = () => {
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ? "text-white" : "text-secondary"
+                    active === Link.title ? "text-white" : "text-white"
                   } font-poppins font-medium cursor-pointer text-[16px] `}
                   onClick={() => {
                     setActive(Link.title);
