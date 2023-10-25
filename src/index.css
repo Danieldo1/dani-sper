@@ -17,14 +17,13 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 18px;
   height: 100%;
   width: 4px;
   background: #d3c8d6;
   color: #915eff;
 }
 .dark .vertical-timeline-element-date{
-  color: #d3c8d6;
+  color: #fefefe;
 }
 .dark .vertical-timeline-element-content-arrow{
   border-right: 7px solid #151030;
@@ -47,14 +46,13 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 18px;
   height: 100%;
   width: 4px;
   background: #b8acbb;
   color: #205bfe;
 }
 .vertical-timeline-element-date{
-  color: #a197a3;
+  color: #100d25;
 }
 .vertical-timeline-element-content-arrow{
   border-right: 7px solid #cfc2d2;

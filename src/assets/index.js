@@ -22,16 +22,35 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import HPS from './company/HPS.png';
+import uibs from './company/uibs.png';
+import goldr from './company/goldr.png';
+import codec from './company/codec.png';
+
+import ColmarAcd from './ColmarAcd.png';
+import Expenses from './Expenses.png';
+import UsersSteps from './UsersSteps.png';
+import expresso from './expresso.png';
+import dayPlanner from './dayPlanner.png';
+import pixelArt from './pixelArt.png';
+import memegenerator from './memegenerator.png';
+import flashcards from './flashcards.png';
+import inspohompage from './inspohompage.png';
+import webpackrockpasci from './webpackrockpasci.png';
 
 export {
+  ColmarAcd,
+  Expenses,
+  UsersSteps,
+  expresso,
+  dayPlanner,
+  pixelArt,
+  memegenerator,
+  flashcards,
+  inspohompage,
+  webpackrockpasci,
+
   logo,
   backend,
   creator,
@@ -53,12 +72,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+
+  HPS,
+  uibs,
+  goldr,
+  codec,
   chrome,
 };
