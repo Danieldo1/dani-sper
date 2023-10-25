@@ -4,8 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 const Slider = ({ children, options }) => {
   const [emblaRef] = useEmblaCarousel({
     slidesToScroll: 1,
-    align: "center",
-    loop: 'true',
+    align: "start",
     ...options,
   });
 

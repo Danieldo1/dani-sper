@@ -39,6 +39,19 @@ import flashcards from './flashcards.png';
 import inspohompage from './inspohompage.png';
 import webpackrockpasci from './webpackrockpasci.png';
 
+import colorDesign from './pngScreen/colorDesign.png';
+import cssInJs from './pngScreen/cssInJs.png';
+import htmlCert from './pngScreen/htmlCert.png';
+import IntJs from './pngScreen/intJs.png';
+import jQuery from './pngScreen/jquery.png';
+import learnReact from './pngScreen/learnReact.png';
+import reduxReact from './pngScreen/reduxReact.png';
+import tS from './pngScreen/ts.png';
+import uiAndUx from './pngScreen/uiAndUx.png';
+import vue from './pngScreen/vue.png';
+import webDev from './pngScreen/webDev.png';
+
+
 export {
   ColmarAcd,
   Expenses,
@@ -50,6 +63,18 @@ export {
   flashcards,
   inspohompage,
   webpackrockpasci,
+
+  colorDesign,
+  cssInJs,
+  htmlCert,
+  IntJs,
+  jQuery,
+  learnReact,
+  reduxReact,
+  tS,
+  uiAndUx,
+  vue,
+  webDev,
 
   logo,
   backend,

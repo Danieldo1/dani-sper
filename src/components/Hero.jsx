@@ -1,7 +1,8 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import {styles} from '../styles'
-// Add loading here
+
+import { useInView } from "react-intersection-observer";
 
 
 const Hero = () => {
@@ -14,6 +15,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full dark:bg-[#915eff] light: bg-coral'/>
           {/* dash line */}
           <div className='w-1 sm:h-80 h-40 coral-gradient violet-gradient' />
+
         </div>
 
         <div >

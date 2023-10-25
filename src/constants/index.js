@@ -18,6 +18,18 @@ import {
     docker,
     threejs,
 
+    colorDesign,
+    cssInJs,
+    htmlCert,
+    IntJs,
+    jQuery,
+    learnReact,
+    reduxReact,
+    tS,
+    uiAndUx,
+    vue,
+    webDev,
+
     HPS,
     uibs,
     goldr,
@@ -387,5 +399,64 @@ import {
       project_link: "https://danieldo1.github.io/webpack-rock-paper-scissors/",
     }
   ];
+
+  const certifications = [
+    {
+      link: "https://drive.google.com/file/d/1-dz4EKDqdIPbmBBuFK6HNkntvyZAB0Qo/view?usp=sharing",
+      title: "Web Development",
+      imgSrc: webDev
+    },
+    {
+      link: "https://drive.google.com/file/d/1KpTPM9d9Tp7BfMF0KPTw2ducAbMolucm/view?usp=sharing",
+      title: "React",
+      imgSrc: learnReact
+    },
+    {
+      link: "https://drive.google.com/file/d/1bwH0OWYGoraSja05xNir_sbPIfGL58Dk/view?usp=drive_link",
+      title: "Redux",
+      imgSrc: reduxReact
+    },
+    {
+      link: "https://drive.google.com/file/d/1qubf84VLX5ZW2edIb23XEt4sJuXVgrMR/view?usp=drive_link",
+      title: "TypeScript",
+      imgSrc: tS
+    },
+    {
+      link: "https://drive.google.com/file/d/1aXEqXrP1YRD8x8i1CZOYfjmRN69wq5Fm/view?usp=drive_link",
+      title: "Vue.js",
+      imgSrc: vue
+    },
+    {
+      link: "https://drive.google.com/file/d/1JBBgXmh2J4QZ_pR8vVznyB97o0ZBM1C6/view?usp=drive_link",
+      title: "jQuery",
+      imgSrc: jQuery
+    },
+    {
+      link: "https://drive.google.com/file/d/1L1LTXeBTIZTvm2CvyLloSxzk-eqZ8BpF/view?usp=drive_link",
+      title: "Intermediate JavaScript",
+      imgSrc: IntJs
+    },
+    {
+      link: "https://drive.google.com/file/d/1qKXNoDOjgjh16dfhr_Wb0QPnBr2R_ym1/view?usp=sharing",
+      title: "CSS-in-JS",
+      imgSrc: cssInJs
+    },
+    {
+      link: "https://drive.google.com/file/d/1NGWRmspU2GQ3pQCYmL3jWrNt7IcR5CTV/view?usp=drive_link",
+      title: "HTML",
+      imgSrc: htmlCert
+    },
+    {
+      link: "https://drive.google.com/file/d/1F9SLVuSAuDt5yrCnf_gx14zIHvXX5_wz/view?usp=drive_link",
+      title: "UI & UX",
+      imgSrc: uiAndUx
+    },
+    {
+     link: "https://drive.google.com/file/d/1U3UntfyHoI_XuIri4PALfOclN7XnqN15/view?usp=sharing",
+     title: "Color Design",
+     imgSrc: colorDesign
+    },
+
+  ]
   
-  export { services, experiences, projects };
+  export { services, experiences, projects, certifications };
