@@ -8,7 +8,7 @@ import Works from './Works';
 import Contact from './Contact';
 import BallCanvas from './canvas/Ball';
 import StarsCanvas from './canvas/Stars';
-
+import Carousel from './Carousel';
 
 export {
   Hero,
@@ -19,5 +19,6 @@ export {
   Works,
   Contact, 
   BallCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Carousel
 }
