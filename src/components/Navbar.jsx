@@ -30,7 +30,7 @@ const Navbar = () => {
           <FancyText
       gradient={{ from: '#b50717', to: '#ad3c69', type: 'linear' }}
       animateTo={{ from: '#794980', to: '#372f53' }}
-      animateDuration={4000}
+      animateDuration={1700}
     >
           <p className="  dark:text-white text-[25px] font-bold cursor-pointer flex light: text-coral-400">
             Daniil&nbsp;

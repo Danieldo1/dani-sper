@@ -19,6 +19,7 @@
     "@react-three/fiber": "^8.15.4",
     "@types/three": "^0.157.2",
     "clsx": "^2.0.0",
+    "embla-carousel-autoplay": "^8.0.0-rc14",
     "embla-carousel-react": "^8.0.0-rc14",
     "framer-motion": "^10.16.4",
     "math": "^0.0.3",
@@ -29,8 +30,7 @@
     "react-spinners": "^0.13.8",
     "react-tilt": "^1.0.2",
     "react-toggle-dark-mode": "^1.1.1",
-    "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.157.0"
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

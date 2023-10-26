@@ -1,8 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import chrome from "./chrome.png";
 import menu from "./menu.svg";
@@ -38,6 +34,7 @@ import memegenerator from './memegenerator.png';
 import flashcards from './flashcards.png';
 import inspohompage from './inspohompage.png';
 import webpackrockpasci from './webpackrockpasci.png';
+import myWebsite from './myWebsite.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -51,6 +48,11 @@ import uiAndUx from './pngScreen/uiAndUx.png';
 import vue from './pngScreen/vue.png';
 import webDev from './pngScreen/webDev.png';
 
+import facebookPink from "./social/facebookPink.svg";
+import instagramPink from "./social/InstaPink.svg";
+import linkedinPink from "./social/linkedinPink.svg";
+import githubPink from "./social/githubPink.svg";
+
 
 export {
   ColmarAcd,
@@ -63,6 +65,13 @@ export {
   flashcards,
   inspohompage,
   webpackrockpasci,
+  myWebsite,
+
+facebookPink,
+instagramPink,
+linkedinPink,
+githubPink,
+
 
   colorDesign,
   cssInJs,
@@ -77,10 +86,7 @@ export {
   webDev,
 
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  
   github,
   menu,
   close,

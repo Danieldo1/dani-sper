@@ -36,6 +36,8 @@ module.exports = {
       backgroundImage:  {
         "hero-pattern": "url('/src/assets/herobg.png')",
         "light-pattern": "url('/src/assets/herobglight.png')",
+        "light-photo": "url('/src/assets/finalComp/1LightBg-min.png')",
+        "dark-photo": "url('/src/assets/finalComp/1DarkBg-min.png')",
       },
     },
   },

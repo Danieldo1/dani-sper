@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react"
 import { HashLoader } from "react-spinners"
 import { BrowserRouter } from "react-router-dom"
-import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
-import {About, Contact, Experience, Hero, Navbar, Works, Carousel, StarsCanvas} from "./components"
+import {About, Contact, Experience, Hero, Navbar, Works, Carousel} from "./components"
 
 
 const App=()=> {
@@ -41,7 +40,6 @@ const App=()=> {
             <Carousel />
             <div className="relative z-0">
               <Contact/>
-              <StarsCanvas/>
             </div>
           </div>
           </BrowserRouter>

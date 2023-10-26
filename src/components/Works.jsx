@@ -17,8 +17,10 @@ const ProjectCard = ({
   source_code_link,
   project_link
 }) => {
+
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div >
       <Tilt
         options={{ max: 45, scale: 1, speed: 350 }}
         className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl sm:w-[350px] w-full "
@@ -36,7 +38,7 @@ const ProjectCard = ({
             {/* github link */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -49,7 +51,7 @@ const ProjectCard = ({
             {/* CHANGE ICON HERE */}
             <div
               onClick={() => window.open(project_link, "_blank")}
-              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={chrome}
@@ -84,41 +86,45 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p
-          className={`${styles.sectionSubText} dark:text-white light: text-midnight-100`}
-        >
-          My work...
-        </p>
-        <h2
-          className={`${styles.sectionHeadText} dark:text-white light: text-midnight-100`}
-        >
-          Projects
-        </h2>
-      </motion.div>
 
-      <div className="w-full flex ">
-        <motion.p
-          variants={fadeIn("", "", 0.2, 1)}
-          className="mt-3 dark:text-secondary light: text-midnight-400 text-[17px] max-w-3xl leading-[30px]"
-        >
-          The following projects serve as tangible demonstrations of my skills
-          and experiences, offering real-world examples of my work. Each project
-          is concisely described and includes live demos, which provide a
-          testament to my proficiency in solving complex problems, my adeptness
-          with various technologies, and my effective project management.
-        </motion.p>
-      </div>
-      {/* wrapper for projects */}
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-    </>
+  return (
+   
+            <>
+          <motion.div >
+            <p
+              className={`${styles.sectionSubText} dark:text-white light: text-midnight-100`}
+            >
+              My work...
+            </p>
+            <h2
+              className={`${styles.sectionHeadText} dark:text-white light: text-midnight-100`}
+            >
+              Projects
+            </h2>
+          </motion.div>
+    
+          <div className="w-full flex ">
+            <motion.p
+              className="mt-3 dark:text-secondary light: text-midnight-400 text-[17px] max-w-3xl leading-[30px]"
+            >
+              The following projects serve as tangible demonstrations of my skills
+              and experiences, offering real-world examples of my work. Each project
+              is concisely described and includes live demos, which provide a
+              testament to my proficiency in solving complex problems, my adeptness
+              with various technologies, and my effective project management.
+            </motion.p>
+            </div>
+          {/* wrapper for projects */}
+          <div className="mt-20 flex flex-wrap gap-7 ">
+            {projects.map((project, index) => (
+              <ProjectCard key={`project-${index}`} index={index} {...project} />
+            ))}
+          </div>
+      
+          </>
+          
   );
 };
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "projects")
+
