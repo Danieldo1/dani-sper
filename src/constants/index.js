@@ -45,6 +45,7 @@ import {
   webpackrockpasci,
   myWebsite,
   theOne,
+  nikeClone,
 } from "../assets";
 
 export const navLinks = [
@@ -399,6 +400,23 @@ const projects = [
     project_link: "https://danieldo1.github.io/webpack-rock-paper-scissors/",
   },
   {
+    name: "Nike Clone",
+    description: "I've created a copycat website mimicking the Nike store landing page using the Tailwind CSS framework for styling and Vite for a lightning-fast development experience. The project closely mirrors the official Nike website, offering a familiar user interface with responsive design and smooth interactions.",
+    tags: [
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nikeClone,
+    source_code_link: "https://github.com/Danieldo1/shoe-store-tailwind",
+    project_link: "https://strong-klepon-49ee45.netlify.app/",
+},
+  {
     name: "Personal Website",
     description: "Discover my digital hub – a dynamic and interactive personal website crafted with Vite and React. Explore my journey, skills, and passions through an immersive digital experience. Stay up-to-date with my latest projects, insights, and creative endeavors. Welcome to my online world.",
     tags: [
@@ -420,6 +438,19 @@ const projects = [
     project_link: "https://www.dansper.live/",
   }
 ];
+// {
+//   name: "",
+//   description: "",
+//   tags: [
+//     {
+//       name: "",
+//       color: "",
+//     },
+//   ],
+//   image: "",
+//   source_code_link: "",
+//   project_link: "",
+// }
 
 const certifications = [
   {
