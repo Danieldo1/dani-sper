@@ -44,6 +44,7 @@ import {
   inspohompage,
   webpackrockpasci,
   myWebsite,
+  theOne,
 } from "../assets";
 
 export const navLinks = [
@@ -245,26 +246,26 @@ const projects = [
       "https://www.figma.com/proto/wijso6VDNe1B01SRcIcSSn/%5BTemplate%5D-User-Flow%3A-Millie's-Muffins-(Copy)?page-id=11%3A33768&node-id=11-34056&starting-point-node-id=11%3A34056&t=usNqBkjpqsrPwXJp-1",
   },
   {
-    name: "Expresso API",
+    name: "The One",
     description:
-      "This project involves building a powerful and user-friendly internal tool for a coffee shop, streamlining operations and improving management across different aspects of the business.This tool enables users to manage menus, menu items, employees, and employee timesheets.",
+      "This innovative project leverages the Yelp API to revolutionize the dining experience by eliminating the dilemma of choosing where to eat. It streamlines the decision-making process by returning only one carefully selected restaurant, sparing users from the endless choices and indecision that often come with dining out.",
     tags: [
       {
-        name: "Javascript",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "Express.js",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "REST API",
+        name: "HTTP Calls",
         color: "pink-text-gradient",
       },
     ],
-    image: expresso,
-    source_code_link: "https://github.com/Danieldo1/expresso",
-    project_link: "https://danieldo1.github.io/expresso/#/",
+    image: theOne,
+    source_code_link: "https://github.com/Danieldo1/ravenous1",
+    project_link: "https://papaya-torrone-a2cc84.netlify.app/",
   },
 
   {

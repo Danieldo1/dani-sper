@@ -35,6 +35,7 @@ import flashcards from './flashcards.png';
 import inspohompage from './inspohompage.png';
 import webpackrockpasci from './webpackrockpasci.png';
 import myWebsite from './myWebsite.png';
+import theOne from './theOne.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -66,6 +67,7 @@ export {
   inspohompage,
   webpackrockpasci,
   myWebsite,
+  theOne,
 
 facebookPink,
 instagramPink,
