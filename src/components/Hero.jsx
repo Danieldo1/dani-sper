@@ -47,7 +47,7 @@ const Hero = () => {
         <div className='sm:w-1/2 flex justify-center items-center mt-5 order-2 sm:order-1'> {/* Change the order for different screen sizes */}
           <div>
             <img src={ imageSrc} 
-                alt="hero"
+                alt="Daniil Speranskii the Web Developer"
               className='rounded-lg w-full sm:h-auto md:h-auto lg:w-[450px] mb-8 '
             />     
            

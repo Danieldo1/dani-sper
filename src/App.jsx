@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { HashLoader } from "react-spinners"
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Hero, Navbar, Works, Carousel} from "./components"
+import {About, Contact, Experience, Hero, Navbar, Works, Carousel,Footer} from "./components"
 
 
 const App=()=> {
@@ -40,6 +40,7 @@ const App=()=> {
             <Carousel />
             <div className="relative z-0">
               <Contact/>
+              <Footer />
             </div>
           </div>
           </BrowserRouter>

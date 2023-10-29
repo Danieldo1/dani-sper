@@ -6,10 +6,12 @@ import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
 import Carousel from './Carousel';
+import Footer from './Footer';
 
 export {
   Hero,
   Navbar,
+  Footer,
   About,
   Experience,
   Works,

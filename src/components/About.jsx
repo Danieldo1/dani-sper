@@ -29,7 +29,7 @@ const ServiceCard = ({index,title,icon,link}) => {
         >
          
           {/* icons for cards */}
-            <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+            <img src={icon} alt='Daniil Speranskii Social Mdeia' className='w-16 h-16 object-contain' />
             <h3 className='dark:text-white text-[20px] font-bold text-center light: text-midnight-100'>{title}</h3>
         </div>
         </a>
