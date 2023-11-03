@@ -34,30 +34,31 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           {/* text */}
-          <div className="absolute inset-0 flex justify-between m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-between m-3 card-img_hover shadow-lg">
             {/* github link */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer shadow-md shadow-slate-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-300 transition ease-in-out delay-80"
             >
               <img
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
-              />
+                />
+                {/* <p className="absolute inset-y-10 flex justify-center hover:hidden m-3 orange-text-gradient text-sm font-semibold"> GitHub</p> */}
             </div>
             {/* Live project link */}
 
-            {/* CHANGE ICON HERE */}
             <div
               onClick={() => window.open(project_link, "_blank")}
-              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer shadow-md shadow-slate-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-300 transition ease-in-out delay-80 "
             >
               <img
                 src={chrome}
-                alt="github"
+                alt="chrome"
                 className="w-1/2 h-1/2 object-contain"
               />
+              {/* <p className="absolute inset-y-10  justify-center m-3 hidden hover:flex text-sm font-semibold"> Online</p> */}
             </div>
           </div>
         </div>

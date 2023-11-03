@@ -37,6 +37,10 @@ import webpackrockpasci from './webpackrockpasci.png';
 import myWebsite from './myWebsite.png';
 import theOne from './theOne.png';
 import nikeClone from './nikeClone.png';
+import travelapp from './travel-app.png';
+import ecom from './e-com.png';
+import countries from './countries.png';
+import stringhub from './stringhub.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -70,6 +74,11 @@ export {
   myWebsite,
   theOne,
   nikeClone,
+
+  travelapp,
+  ecom,
+  countries,
+  stringhub,
 
 facebookPink,
 instagramPink,

@@ -1,5 +1,5 @@
-import React,{useEffect,useState} from 'react'
 import {motion} from "framer-motion"
+import React, {useEffect, useState} from 'react'
 import {styles} from '../styles'
 
 import { useInView } from "react-intersection-observer";

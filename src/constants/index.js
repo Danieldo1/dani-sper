@@ -46,6 +46,10 @@ import {
   myWebsite,
   theOne,
   nikeClone,
+  travelapp,
+  ecom,
+  countries,
+  stringhub,
 } from "../assets";
 
 export const navLinks = [
@@ -436,7 +440,99 @@ const projects = [
     image: myWebsite,
     source_code_link: "https://github.com/Danieldo1/dani-sper",
     project_link: "https://www.dansper.live/",
-  }
+  },
+  {
+    name: "Travel Next",
+    description: "My journey into web development led me to embrace TypeScript and Next.js as the foundation for a captivating camping ground website. By harnessing the power of these technologies, I crafted an immersive user experience that caters to both mobile and desktop users, ensuring that everyone can explore and engage with the beauty of the camping ground effortlessly.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelapp,
+    source_code_link: "https://github.com/Danieldo1/travel-next",
+    project_link: "https://strong-sprinkles-84546c.netlify.app/",
+  },
+  {
+    name: "WonderMart",
+    description: "The E-Comm Next.js Test Project offers an immersive learning experience in web development, with a specific focus on API calls and Next.js, a robust React framework. It demonstrates the effective use of Next.js and its routing system to fetch product details from the Fakestore API, showcasing how Next.js seamlessly integrates APIs and handles dynamic content rendering.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecom,
+    source_code_link: "https://github.com/Danieldo1/e-comm-next.js-api",
+    project_link: "https://e-comm-next-js.vercel.app/",
+  },
+  {
+    name: "Country Info",
+    description: "The Country Information App, created with Next.js and TypeScript, offers users a convenient way to explore details about countries worldwide. Leveraging a countries API, it showcases country flags, capital cities, populations, regions, Google Maps integration, and more. Users can click on a flag to access in-depth information about each country, making it an engaging resource for learning about the world.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: " green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient ",
+      },
+    ],
+    image: countries,
+    source_code_link: "https://github.com/Danieldo1/countries-api-next",
+    project_link: "https://countries-api-next-sage.vercel.app/",
+  },
+  {
+    name: "StringHub.io",
+    description: "A Social Media App StringHub is a sophisticated social media application that offers a comprehensive set of features to enable users to connect, share, and engage with one another. Built using cutting-edge technologies and a thoughtful approach to design, StringHub provides a platform for users to create accounts, log in, and share text-based posts seamlessly.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: stringhub,
+    source_code_link: "https://github.com/Danieldo1/StringHub.io-next",
+    project_link: "https://string-hub-i.vercel.app/sign-in",
+  },
 ];
 // {
 //   name: "",
