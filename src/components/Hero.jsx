@@ -49,6 +49,7 @@ const Hero = () => {
             <img src={ imageSrc} 
                 alt="Daniil Speranskii the Web Developer"
               className='rounded-lg w-full sm:h-auto md:h-auto lg:w-[450px] mb-8 '
+              loading="lazy"
             />     
            
         </div>
