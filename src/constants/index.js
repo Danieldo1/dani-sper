@@ -33,6 +33,8 @@ import {
   uibs,
   goldr,
   codec,
+
+
   ColmarAcd,
   Expenses,
   UsersSteps,
@@ -50,6 +52,10 @@ import {
   ecom,
   countries,
   stringhub,
+  chatterbox,
+  pricescraper,
+  personifyai,
+  woltaroo,
 } from "../assets";
 
 export const navLinks = [
@@ -533,6 +539,115 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/StringHub.io-next",
     project_link: "https://string-hub-i.vercel.app/sign-in",
   },
+ 
+  {
+    name: "PriceScraper",
+    description: "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
+    tags: [
+      {
+        name: "Next.js/TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CRON Job",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Auto Email",
+        color: "blue-text-gradient",
+      },
+    ],
+    image:pricescraper ,
+    source_code_link: "https://github.com/Danieldo1/next-scrapper",
+    project_link: "https://next-scrapper-swart.vercel.app/",
+  },
+  {
+    name: "ChatterBox AI",
+    description: "Introducing ChatterBox AI, my latest project in AI SaaS. Powered by five advanced AI tools, it features the Next.js 13 App Router for smooth client-side routing and a seamlessly integrated Stripe subscription system. With a robust tech stack including React, Tailwind CSS, Prisma, MySQL, and more, my goal is to craft a fully functional AI SaaS platform with a beautifully designed user interface. Join me in revolutionizing AI interactions!",
+    tags: [
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "purple-text-gradient",
+      }, 
+    ],
+    image: chatterbox,
+    source_code_link: "https://github.com/Danieldo1/chatter-box-ai",
+    project_link: "https://chatter-box-delta.vercel.app/",
+  },
+  {
+    name: "Personify AI",
+    description: "Personify AI Chat Platform is an application built with Next.js, providing a unique and interactive AI chatting experience. Leveraging the Replicate Llama Chat AI, users can authenticate and engage in conversations with AI personas that have memory retention and programmable characteristics.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "red-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "blue-text-gradient",
+      }, 
+      {
+        name: "Prisma/MySQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: personifyai,
+    source_code_link: "https://github.com/Danieldo1/Personify-AI",
+    project_link: "https://personify-ai.vercel.app/",
+  },
+  {
+    name: "Woltaroo",
+    description: "Woltaroo, a React Native food delivery app inspired by Deliveroo, simplifies the food ordering process. Users can seamlessly discover, choose, and order their favorite dishes from local restaurants.",
+    tags: [
+      {
+        name: "React Native",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Expo/Router",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+      {
+         name: "Google Maps API",
+         color: "blue-text-gradient",
+      },
+    ],
+    image: woltaroo,
+    source_code_link: "https://github.com/Danieldo1/woltaroo-reactNative",
+    project_link: "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
+  }
 ];
 // {
 //   name: "",

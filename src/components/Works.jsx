@@ -18,15 +18,23 @@ const ProjectCard = ({
   project_link
 }) => {
 
+  const isLastThree = index >= projects.length - 5;
 
   return (
     <motion.div >
       <Tilt
-        options={{ max: 45, scale: 1, speed: 350 }}
-        className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl sm:w-[350px] w-full "
+        options={{ max: 45, scale: 1, speed: 250 }}
+        className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full "
       >
         {/* card div */}
-        <div className="relative w-full h-[230px]">
+        <div className={`relative w-full h-[230px] ${isLastThree ? 'mt-0' : ''}`}>
+          {isLastThree && (
+            <div className="absolute inset-[-40px] flex justify-end  card-img_hover ">
+              <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-pointer shadow-md dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] animate-pulse">
+              <p className="text-white font-bold text-[24px] z-10">New</p>
+              </div>
+            </div>
+          )}
           {/* image of card work */}
           <img
             src={image}
@@ -38,12 +46,12 @@ const ProjectCard = ({
             {/* github link */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer shadow-md shadow-slate-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-300 transition ease-in-out delay-80"
+              className="black-gradient-link w-12 h-12 rounded-full flex justify-center items-center cursor-pointer shadow-md shadow-slate-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-300 transition ease-in-out delay-80 "
             >
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-4/5 h-4/5 object-contain"
                 />
                 {/* <p className="absolute inset-y-10 flex justify-center hover:hidden m-3 orange-text-gradient text-sm font-semibold"> GitHub</p> */}
             </div>
@@ -56,7 +64,7 @@ const ProjectCard = ({
               <img
                 src={chrome}
                 alt="chrome"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-2/3 h-2/3  object-contain"
               />
               {/* <p className="absolute inset-y-10  justify-center m-3 hidden hover:flex text-sm font-semibold"> Online</p> */}
             </div>

@@ -41,6 +41,10 @@ import travelapp from './travel-app.png';
 import ecom from './e-com.png';
 import countries from './countries.png';
 import stringhub from './stringhub.png';
+import chatterbox from './chatterbox.png';
+import pricescraper from './pricescraper.png';
+import personifyai from './personifyai.png';
+import woltaroo from './woltaroo.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -74,6 +78,10 @@ export {
   myWebsite,
   theOne,
   nikeClone,
+  chatterbox,
+  pricescraper,
+  personifyai,
+  woltaroo,
 
   travelapp,
   ecom,
