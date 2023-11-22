@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { github,chrome } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -27,7 +27,7 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 250 }}
         className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full  flex"
       >
-    <motion.div className="flex-col flex justify-between " >
+    <motion.div className="flex-col flex justify-between " variants={staggerContainer} >
         {/* card div */}
         <div className={`relative w-full h-[230px] ${isLastThree ? 'mt-0' : ''}`}>
           {isLastThree && (
@@ -99,7 +99,7 @@ const ProjectCard = ({
 };
 
 const technologies = [
-  "AI",
+  
   "API",
   "CronJob",
   "CSS",
@@ -111,10 +111,11 @@ const technologies = [
   "MongoDB",
   "MySQL",
   "Next.js",
+  "OpenAi",
   "Prisma",
   "React",
   "React Native",
-  "React Routers",
+  "React Router",
   "Redux",
   "Redux RTK",
   "Shadcn",
@@ -131,26 +132,28 @@ const Works = () => {
 
   const toggleFilter = (filter) => {
     if (activeFilters.includes(filter)) {
-      // Remove filter if it's already active
+     
       setActiveFilters(activeFilters.filter((f) => f !== filter));
     } else {
-      // Add filter if it's not active
+      
       setActiveFilters([...activeFilters, filter]);
     }
   };
 
   const generateButtons = () => {
+
     return technologies.map((tech) => (
-      <button
+      <motion.button
         key={tech}
         type="button"
         onClick={() => toggleFilter(tech)}
         className={`dark:text-white light: text-midnight-100 inline-block m-1 rounded-full border-2 border-secondary md:px-6 md:pb-[6px] md:pt-2 px-2 pb-1 pt-1 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-700 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-25 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-green-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
           activeFilters.includes(tech) ? " dark:hover:border-green-600 light: hover:border-coral dark:border-green-400 light: border-[#FF3A55] " : ""
         }`}
+     
       >
         {tech}
-      </button>
+      </motion.button>
     ));
   };
 

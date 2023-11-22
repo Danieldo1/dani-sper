@@ -296,7 +296,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "React Routers",
+        name: "React Router",
         color: "blue-text-gradient",
       },
     ],
@@ -610,7 +610,7 @@ const projects = [
         color: "red-text-gradient",
       },
       {
-        name: "AI",
+        name: "OpenAi",
         color: "purple-text-gradient",
       }, 
     ],
@@ -643,7 +643,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "AI",
+        name: "OpenAi",
         color: "blue-text-gradient",
       }, 
       {
@@ -747,7 +747,7 @@ const projects = [
         color: "purple-text-gradient",
       },
       {
-        name: "AI",
+        name: "OpenAi",
         color: "orange-text-gradient",
       },
       {

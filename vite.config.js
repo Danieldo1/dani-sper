@@ -11,13 +11,13 @@ export default defineConfig({
           quality: 50
         },
         png: {
-          quality: 10
+          quality: 100
         },
         webp: {
           quality: 50
         },
         svg:{
-          quality: 100
+          quality: 10
         }
        
     }}), react()],
