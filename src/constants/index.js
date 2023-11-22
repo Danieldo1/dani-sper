@@ -56,6 +56,7 @@ import {
   pricescraper,
   personifyai,
   woltaroo,
+  OmniChat,
 } from "../assets";
 
 export const navLinks = [
@@ -514,6 +515,32 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/countries-api-next",
     project_link: "https://countries-api-next-sage.vercel.app/",
   },
+
+  {
+    name: "PriceScraper",
+    description: "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
+    tags: [
+      {
+        name: "Next.js/TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CRON Job",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Auto Email",
+        color: "blue-text-gradient",
+      },
+    ],
+    image:pricescraper ,
+    source_code_link: "https://github.com/Danieldo1/next-scrapper",
+    project_link: "https://next-scrapper-swart.vercel.app/",
+  },
   {
     name: "StringHub.io",
     description: "A Social Media App StringHub is a sophisticated social media application that offers a comprehensive set of features to enable users to connect, share, and engage with one another. Built using cutting-edge technologies and a thoughtful approach to design, StringHub provides a platform for users to create accounts, log in, and share text-based posts seamlessly.",
@@ -540,31 +567,6 @@ const projects = [
     project_link: "https://string-hub-i.vercel.app/sign-in",
   },
  
-  {
-    name: "PriceScraper",
-    description: "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
-    tags: [
-      {
-        name: "Next.js/TypeScript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CRON Job",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Auto Email",
-        color: "blue-text-gradient",
-      },
-    ],
-    image:pricescraper ,
-    source_code_link: "https://github.com/Danieldo1/next-scrapper",
-    project_link: "https://next-scrapper-swart.vercel.app/",
-  },
   {
     name: "ChatterBox AI",
     description: "Introducing ChatterBox AI, my latest project in AI SaaS. Powered by five advanced AI tools, it features the Next.js 13 App Router for smooth client-side routing and a seamlessly integrated Stripe subscription system. With a robust tech stack including React, Tailwind CSS, Prisma, MySQL, and more, my goal is to craft a fully functional AI SaaS platform with a beautifully designed user interface. Join me in revolutionizing AI interactions!",
@@ -625,7 +627,7 @@ const projects = [
   },
   {
     name: "Woltaroo",
-    description: "Woltaroo, a React Native food delivery app inspired by Deliveroo, simplifies the food ordering process. Users can seamlessly discover, choose, and order their favorite dishes from local restaurants.",
+    description: "Woltaroo, my debut React Native project inspired by Deliveroo, simplifies food ordering. Users seamlessly discover, choose, and order their favorite dishes from local restaurants, showcasing the simplicity and efficiency of my initial foray into React Native development.",
     tags: [
       {
         name: "React Native",
@@ -647,6 +649,35 @@ const projects = [
     image: woltaroo,
     source_code_link: "https://github.com/Danieldo1/woltaroo-reactNative",
     project_link: "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
+  },
+  {
+    name: "OmniChat Connect",
+    description: "Explore the future of communication with OmniChat - the innovative chat platform that seamlessly translates messages, ensures secure payments with Stripe, and offers a visually stunning interface. Elevate your conversations and experience a new era in chatting.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Shad CN",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: OmniChat,
+    source_code_link: "https://github.com/Danieldo1/omnichat-next",
+    project_link: "https://omnichat-zeta.vercel.app",
   }
 ];
 // {
@@ -696,7 +727,7 @@ const certifications = [
   },
   {
     link: "https://drive.google.com/file/d/1L1LTXeBTIZTvm2CvyLloSxzk-eqZ8BpF/view?usp=drive_link",
-    title: "Intermediate JavaScript",
+    title: " JavaScript",
     imgSrc: IntJs,
   },
   {

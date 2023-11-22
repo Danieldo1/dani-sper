@@ -36,7 +36,7 @@ const Hero = () => {
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [ ]);
 
  
 
@@ -49,7 +49,8 @@ const Hero = () => {
             <img src={ imageSrc} 
                 alt="Daniil Speranskii the Web Developer"
               className='rounded-lg w-full sm:h-auto md:h-auto lg:w-[450px] mb-8 '
-              loading="lazy"
+              loading="eager"
+              
             />     
            
         </div>
@@ -66,13 +67,22 @@ const Hero = () => {
             A passionate and aspiring web developer <br className='hidden sm:block' />
             with a knack for turning ideas into beautiful, functional websites.
           </p>
+        
+          <button className='dark:text-white light: text-midnight-100 border-2 light: border-coral dark:border-[#915eff] px-6 py-2 rounded-full mt-4 light: hover:bg-coral light: hover:text-white hover:dark:bg-[#915eff] hover:dark:text-midnight-100'>
+            <a href="https://drive.google.com/file/d/1RU6IwXWfCNRzqfHJIgv5wa2SivAnDuUF/view" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2' >
+              Resume
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+            </a>
+          </button>
         </div >
           {/* dash line */}
       </div>
 
-      <div  className='absolute xs:bottom-10 bottom-32 w-full sm:w-auto flex justify-center items-center order-3' style={{right: 0,left: 0}} >
+      <div  className='absolute xs:bottom-10 bottom-32 w-full sm:w-auto flex justify-center items-center order-3 ' style={{right: 0,left: 0}} >
         <a href='#about'>
-          <div  className='w-[35px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div  className='w-[35px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 '>
             <motion.div
               animate={{
                 y: [0, 24, 0],

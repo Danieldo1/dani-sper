@@ -45,6 +45,7 @@ import chatterbox from './chatterbox.png';
 import pricescraper from './pricescraper.png';
 import personifyai from './personifyai.png';
 import woltaroo from './woltaroo.png';
+import OmniChat from './OmniChat.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -82,6 +83,7 @@ export {
   pricescraper,
   personifyai,
   woltaroo,
+  OmniChat,
 
   travelapp,
   ecom,

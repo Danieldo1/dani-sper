@@ -24,7 +24,7 @@ const Carousel = () => {
 </Slider>
 
 </div>
-<div  className='absolute xs:bottom-10 bottom-32 w-full sm:w-auto flex justify-center items-center order-3' style={{right: 0,left: 0}} >
+<div  className='absolute xs:bottom-24 bottom-16 w-full sm:w-auto flex justify-center items-center order-3' style={{right: 0,left: 0}} >
 
           <div  className='w-[55px] h-[35px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

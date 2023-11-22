@@ -21,17 +21,17 @@ const ProjectCard = ({
   const isLastThree = index >= projects.length - 5;
 
   return (
-    <motion.div >
       <Tilt
         options={{ max: 45, scale: 1, speed: 250 }}
-        className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full "
+        className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full  flex"
       >
+    <motion.div className="flex-col flex justify-between " >
         {/* card div */}
         <div className={`relative w-full h-[230px] ${isLastThree ? 'mt-0' : ''}`}>
           {isLastThree && (
             <div className="absolute inset-[-40px] flex justify-end  card-img_hover ">
-              <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-pointer shadow-md dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] animate-pulse">
-              <p className="text-white font-bold text-[24px] z-10">New</p>
+              <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-pointer shadow-md dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] ">
+              <p className="text-white font-bold text-[24px] z-10 animate-pulse">New</p>
               </div>
             </div>
           )}
@@ -40,6 +40,7 @@ const ProjectCard = ({
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
+            loading="lazy"
           />
           {/* text */}
           <div className="absolute inset-0 flex justify-between m-3 card-img_hover shadow-lg">
@@ -80,17 +81,18 @@ const ProjectCard = ({
             {description}
           </p>
         </div>
+          <p className="mt-4 dark:text-white light: text-midnight-100 font-semibold underline leading-[12px] ">Stack:</p>
 
         {/* tags */}
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-2 flex flex-wrap gap-2 justify-">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
+            <p key={tag.name} className={`text-[16px] ${tag.color}`}>
+              {tag.name}
             </p>
           ))}
         </div>
-      </Tilt>
     </motion.div>
+      </Tilt>
   );
 };
 
