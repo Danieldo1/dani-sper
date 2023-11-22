@@ -57,6 +57,8 @@ import {
   personifyai,
   woltaroo,
   OmniChat,
+  moviehub,
+  dreamcanvas,
 } from "../assets";
 
 export const navLinks = [
@@ -294,7 +296,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "React Routers ",
+        name: "React Routers",
         color: "blue-text-gradient",
       },
     ],
@@ -332,7 +334,7 @@ const projects = [
       "Create and share hilarious memes with ease using the Meme Generator App. This React-based web application offers custom meme creation, access to popular meme templates, one-click meme copying and downloading, and a responsive design for all screen sizes. Join the fun and express your creativity with this user-friendly meme-making tool!",
     tags: [
       {
-        name: "React.js",
+        name: "React",
         color: "pink-text-gradient",
       },
       {
@@ -386,7 +388,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "JS API's",
+        name: "API",
         color: "blue-text-gradient",
       },
     ],
@@ -442,6 +444,10 @@ const projects = [
       {
         name: "JavaScript",
         color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "red-text-gradient",
       },
     ],
     image: myWebsite,
@@ -521,7 +527,7 @@ const projects = [
     description: "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
     tags: [
       {
-        name: "Next.js/TypeScript",
+        name: "Next.js",
         color: "pink-text-gradient",
       },
       {
@@ -529,11 +535,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "CRON Job",
+        name: "MongoDB",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CronJob",
         color: "orange-text-gradient",
       },
       {
-        name: "Auto Email",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
     ],
@@ -548,6 +558,10 @@ const projects = [
       {
         name: "Typescript",
         color: "green-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "red-text-gradient",
       },
       {
         name: "Next.js",
@@ -584,11 +598,19 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
+        name: "Stripe",
+        color: "custom-text-gradient",
+      },
+      {
         name: "Prisma",
         color: "pink-text-gradient",
       },
       {
-        name: "OpenAi",
+        name: "Shadcn",
+        color: "red-text-gradient",
+      },
+      {
+        name: "AI",
         color: "purple-text-gradient",
       }, 
     ],
@@ -609,13 +631,25 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
+        name: "Shadcn",
+        color: "yellow-text-gradient",
+      },
+      {
         name: "Typescript",
         color: "purple-text-gradient",
       },
       {
-        name: "OpenAi",
+        name: "Zustand",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AI",
         color: "blue-text-gradient",
       }, 
+      {
+        name: "Stripe",
+        color: "custom-text-gradient",
+      },
       {
         name: "Prisma/MySQL",
         color: "green-text-gradient",
@@ -634,7 +668,7 @@ const projects = [
         color: "purple-text-gradient",
       },
       {
-        name: "Expo/Router",
+        name: "Expo Go",
         color: "orange-text-gradient",
       },
       {
@@ -642,7 +676,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-         name: "Google Maps API",
+         name: "API",
          color: "blue-text-gradient",
       },
     ],
@@ -667,8 +701,12 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "Shad CN",
+        name: "Shadcn",
         color: "red-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "yellow-text-gradient",
       },
       {
         name: "Tailwind CSS",
@@ -678,7 +716,55 @@ const projects = [
     image: OmniChat,
     source_code_link: "https://github.com/Danieldo1/omnichat-next",
     project_link: "https://omnichat-zeta.vercel.app",
+  },
+  {
+    name: "MovieHub",
+    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: moviehub,
+    source_code_link: "https://github.com/Danieldo1/movie-hub",
+    project_link: "https://moviehub-io.vercel.app/discover/now_playing",
+  },
+  {
+    name: "DreamCanvas",
+    description: "DreamCanvas combines React, Vite, DALL-E AI, and MongoDB to transform text prompts into unique images. With seamless navigation, image storage, and easy downloads, it offers a creative platform for users to explore, create, and enjoy a personalized gallery of AI-generated masterpieces.",
+    tags: [
+      {
+        name: "Vite",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dreamcanvas,
+    source_code_link: "https://github.com/Danieldo1/dream-canvas",
+    project_link: "https://dream-canvas.vercel.app/",
   }
+  
+  
 ];
 // {
 //   name: "",

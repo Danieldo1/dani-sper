@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -17,8 +17,10 @@ const ProjectCard = ({
   source_code_link,
   project_link
 }) => {
+  
 
-  const isLastThree = index >= projects.length - 5;
+  
+  const isLastThree = index >= projects.length - 7;
 
   return (
       <Tilt
@@ -96,7 +98,62 @@ const ProjectCard = ({
   );
 };
 
+const technologies = [
+  "AI",
+  "API",
+  "CronJob",
+  "CSS",
+  "Expo Go",
+  "Figma",
+  "Firebase",
+  "HTML",
+  "JavaScript",
+  "MongoDB",
+  "MySQL",
+  "Next.js",
+  "Prisma",
+  "React",
+  "React Native",
+  "React Routers",
+  "Redux",
+  "Redux RTK",
+  "Shadcn",
+  "Stripe",
+  "Tailwind CSS",
+  "Typescript",
+  "Vite",
+  "WebPack",
+  "Zustand"
+];
 const Works = () => {
+  const [activeFilters, setActiveFilters] = useState([]);
+ 
+
+  const toggleFilter = (filter) => {
+    if (activeFilters.includes(filter)) {
+      // Remove filter if it's already active
+      setActiveFilters(activeFilters.filter((f) => f !== filter));
+    } else {
+      // Add filter if it's not active
+      setActiveFilters([...activeFilters, filter]);
+    }
+  };
+
+  const generateButtons = () => {
+    return technologies.map((tech) => (
+      <button
+        key={tech}
+        type="button"
+        onClick={() => toggleFilter(tech)}
+        className={`dark:text-white light: text-midnight-100 inline-block m-1 rounded-full border-2 border-secondary md:px-6 md:pb-[6px] md:pt-2 px-2 pb-1 pt-1 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-700 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-25 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-green-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
+          activeFilters.includes(tech) ? " dark:hover:border-green-600 light: hover:border-coral dark:border-green-400 light: border-[#FF3A55] " : ""
+        }`}
+      >
+        {tech}
+      </button>
+    ));
+  };
+
 
   return (
    
@@ -125,14 +182,24 @@ const Works = () => {
               with various technologies, and my effective project management.
             </motion.p>
             </div>
-          {/* wrapper for projects */}
-          <div className="mt-20 flex flex-wrap gap-7 ">
-            {projects.map((project, index) => (
-              <ProjectCard key={`project-${index}`} index={index} {...project} />
-            ))}
-          </div>
-      
-          </>
+         
+      <div className="mt-5 flex-1 gap-3 ">
+    <p className={`${styles.sectionSubText} my-4 font-semibold text-base dark:text-white light: text-midnight-100`}>Filters:</p>
+      {generateButtons()}
+        
+      </div>
+
+      {/* Wrapper for projects */}
+      <div className="mt-20 flex flex-wrap gap-7">
+        {projects.map((project, index) => (
+          // Only render projects that match the active filters
+          (activeFilters.length === 0 || 
+            project.tags.some((tag) => activeFilters.includes(tag.name))) && (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          )
+        ))}
+      </div>
+    </>
           
   );
 };

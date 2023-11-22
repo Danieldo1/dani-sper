@@ -125,6 +125,22 @@
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
+.custom-text-gradient {
+  background: #FF3A55; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #FF3A55,
+    #FF7E5F
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #FF3A55,
+    #FF7E5F
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
@@ -218,6 +234,24 @@
     to top,
     #ec008c,
     #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.yellow-text-gradient {
+  background: #fddb92; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fddb92,
+    #d1d9ae
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fddb92,
+    #d1d9ae
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
