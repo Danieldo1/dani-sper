@@ -35,6 +35,7 @@ import {
   codec,
 
 
+
   ColmarAcd,
   Expenses,
   UsersSteps,
@@ -59,6 +60,7 @@ import {
   OmniChat,
   moviehub,
   dreamcanvas,
+  retro,
 } from "../assets";
 
 export const navLinks = [
@@ -413,23 +415,6 @@ const projects = [
     project_link: "https://danieldo1.github.io/webpack-rock-paper-scissors/",
   },
   {
-    name: "Nike Clone",
-    description: "I've created a copycat website mimicking the Nike store landing page using the Tailwind CSS framework for styling and Vite for a lightning-fast development experience. The project closely mirrors the official Nike website, offering a familiar user interface with responsive design and smooth interactions.",
-    tags: [
-      {
-        name: "Vite",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: nikeClone,
-    source_code_link: "https://github.com/Danieldo1/shoe-store-tailwind",
-    project_link: "https://strong-klepon-49ee45.netlify.app/",
-},
-  {
     name: "Personal Website",
     description: "Discover my digital hub – a dynamic and interactive personal website crafted with Vite and React. Explore my journey, skills, and passions through an immersive digital experience. Stay up-to-date with my latest projects, insights, and creative endeavors. Welcome to my online world.",
     tags: [
@@ -550,6 +535,27 @@ const projects = [
     image:pricescraper ,
     source_code_link: "https://github.com/Danieldo1/next-scrapper",
     project_link: "https://next-scrapper-swart.vercel.app/",
+  },
+  {
+    name: "MovieHub",
+    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: moviehub,
+    source_code_link: "https://github.com/Danieldo1/movie-hub",
+    project_link: "https://moviehub-io.vercel.app/discover/now_playing",
   },
   {
     name: "StringHub.io",
@@ -717,27 +723,7 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/omnichat-next",
     project_link: "https://omnichat-zeta.vercel.app",
   },
-  {
-    name: "MovieHub",
-    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "red-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-    ],
-    image: moviehub,
-    source_code_link: "https://github.com/Danieldo1/movie-hub",
-    project_link: "https://moviehub-io.vercel.app/discover/now_playing",
-  },
+ 
   {
     name: "DreamCanvas",
     description: "DreamCanvas combines React, Vite, DALL-E AI, and MongoDB to transform text prompts into unique images. With seamless navigation, image storage, and easy downloads, it offers a creative platform for users to explore, create, and enjoy a personalized gallery of AI-generated masterpieces.",
@@ -762,6 +748,39 @@ const projects = [
     image: dreamcanvas,
     source_code_link: "https://github.com/Danieldo1/dream-canvas",
     project_link: "https://dream-canvas.vercel.app/",
+  },
+  {
+    name: "Retro Emporium",
+    description: "Retro Emporium is a vibrant digital marketplace that invites users to rediscover the allure of retro aesthetics. From NFTs to pixel art/posters and fonts, the platform offers a curated selection of nostalgic digital assets, providing a seamless shopping experience and empowering sellers with personalized dashboards.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tRPC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: retro,
+    source_code_link: "https://github.com/Danieldo1/Retro-Emporium",
+    project_link: "https://retro-emporium-production.up.railway.app/",
   }
   
   

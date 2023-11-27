@@ -16,9 +16,7 @@ export default defineConfig({
         webp: {
           quality: 50
         },
-        svg:{
-          quality: 10
-        }
+      
        
     }}), react()],
 })

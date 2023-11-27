@@ -12,7 +12,7 @@ const ServiceCard = ({index,title,icon,link}) => {
 <Tilt className='xs:w-[250px] w-full'>
     <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-    className='w-full green-pink-gradient light: border-1 purple-100 p-[1px] rounded-[20px] shadow-card'
+    className='w-full green-pink-gradient light: border-1 purple-100 p-[1px] rounded-[20px] shadow-md'
     >
        <a
        href={link}

@@ -48,6 +48,7 @@ import woltaroo from './woltaroo.png';
 import OmniChat from './OmniChat.png';
 import dreamcanvas from './dreamcanvas.png';
 import moviehub from './moviehub.png';
+import retro from './retro.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -93,6 +94,7 @@ export {
   ecom,
   countries,
   stringhub,
+  retro,
 
 facebookPink,
 instagramPink,

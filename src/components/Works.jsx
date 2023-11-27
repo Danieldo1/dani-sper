@@ -148,7 +148,7 @@ const Works = () => {
         type="button"
         onClick={() => toggleFilter(tech)}
         className={`dark:text-white light: text-midnight-100 inline-block m-1 rounded-full border-2 border-secondary md:px-6 md:pb-[6px] md:pt-2 px-2 pb-1 pt-1 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-700 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-25 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-green-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
-          activeFilters.includes(tech) ? " dark:hover:border-green-600 light: hover:border-coral dark:border-green-400 light: border-[#FF3A55] " : ""
+          activeFilters.includes(tech) ? " hover:border-green-600  border-green-500 " : ""
         }`}
      
       >
