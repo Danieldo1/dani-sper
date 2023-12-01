@@ -20,7 +20,7 @@ const ProjectCard = ({
   
 
   
-  const isLastThree = index >= projects.length - 7;
+  const isLastThree = index >= projects.length - 8;
 
   return (
       <Tilt
@@ -103,6 +103,7 @@ const technologies = [
   "API",
   "CronJob",
   "CSS",
+  "Convex",
   "Expo Go",
   "Figma",
   "Firebase",
@@ -118,16 +119,18 @@ const technologies = [
   "React Router",
   "Redux",
   "Redux RTK",
+  "Replicate",
   "Shadcn",
   "Stripe",
   "Tailwind CSS",
   "Typescript",
   "Vite",
   "WebPack",
-  "Zustand"
+  "Zustand",
 ];
 const Works = () => {
   const [activeFilters, setActiveFilters] = useState([]);
+ 
  
 
   const toggleFilter = (filter) => {
@@ -147,7 +150,7 @@ const Works = () => {
         key={tech}
         type="button"
         onClick={() => toggleFilter(tech)}
-        className={`dark:text-white light: text-midnight-100 inline-block m-1 rounded-full border-2 border-secondary md:px-6 md:pb-[6px] md:pt-2 px-2 pb-1 pt-1 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-700 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-25 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-green-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
+        className={`dark:text-white light: text-midnight-100 inline-block m-1 rounded-full border-2 border-secondary md:px-6 md:pb-[6px] md:pt-2 px-2 pb-1 pt-1 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-700 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-25 focus:border-accent-100 focus:outline-none focus:ring-0 active:border-green-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ${
           activeFilters.includes(tech) ? "hover:bg-neutral-900 bg-secondary dark:hover:text-white  dark:text-midnight-100 light: text-white" : null }`}
      
       >

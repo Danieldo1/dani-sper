@@ -5,19 +5,7 @@ import {
   linkedinPink,
   githubPink,
 
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  threejs,
+ 
   colorDesign,
   cssInJs,
   htmlCert,
@@ -61,6 +49,7 @@ import {
   moviehub,
   dreamcanvas,
   retro,
+  drawit,
 } from "../assets";
 
 export const navLinks = [
@@ -781,6 +770,35 @@ const projects = [
     image: retro,
     source_code_link: "https://github.com/Danieldo1/Retro-Emporium",
     project_link: "https://retro-emporium-production.up.railway.app/",
+  },
+  {
+    name: "Draw it",
+    description: "Draw-it is an innovative web application designed to transform user doodles into realistic images through the power of artificial intelligence. This document outlines the key features and functionalities of Draw-it, which is built using the latest web technologies.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Convex",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Replicate",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: drawit,
+    source_code_link: "https://github.com/Danieldo1/imagine-it",
+    project_link: "https://imagine-it.vercel.app/",
   }
   
   
