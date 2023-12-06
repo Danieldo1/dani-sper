@@ -50,6 +50,7 @@ import {
   dreamcanvas,
   retro,
   drawit,
+  roomio
 } from "../assets";
 
 export const navLinks = [
@@ -236,21 +237,6 @@ const projects = [
     project_link: "https://danieldo1.github.io/Expenses/",
   },
   {
-    name: "Millie's Muffins",
-    description:
-      "Deepening my knowledge of the user's steps in the checkout process of a retail website involves gaining a comprehensive understanding of each stage a customer goes through when making a purchase. This includes steps such as adding items to the cart, reviewing the cart, entering shipping and payment information, confirming the order, and receiving an order confirmation.",
-    tags: [
-      {
-        name: "Figma",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: UsersSteps,
-    // source_code_link: "https://github.com/",
-    project_link:
-      "https://www.figma.com/proto/wijso6VDNe1B01SRcIcSSn/%5BTemplate%5D-User-Flow%3A-Millie's-Muffins-(Copy)?page-id=11%3A33768&node-id=11-34056&starting-point-node-id=11%3A34056&t=usNqBkjpqsrPwXJp-1",
-  },
-  {
     name: "The One",
     description:
       "This innovative project leverages the Yelp API to revolutionize the dining experience by eliminating the dilemma of choosing where to eat. It streamlines the decision-making process by returning only one carefully selected restaurant, sparing users from the endless choices and indecision that often come with dining out.",
@@ -341,30 +327,6 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/meme-generator-react",
     project_link: "https://meme-generator-nz34.onrender.com/",
   },
-
-  {
-    name: "Flashcards",
-    description:
-      "This project is a flashcard-style quiz app built using Redux and Redux Toolkit. It provides users with the ability to create their own topics, quizzes for those topics, and flashcards for those quizzes. Users can also interact with their quizzes by flipping flashcards over.",
-    tags: [
-      {
-        name: "React",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux RTK",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: flashcards,
-    source_code_link: "https://github.com/Danieldo1/flash-cards",
-    project_link: "https://main--soft-gumption-05ae3a.netlify.app/",
-  },
-
   {
     name: "Inspiration Homepage",
     description:
@@ -386,22 +348,6 @@ const projects = [
     image: inspohompage,
     source_code_link: "https://github.com/Danieldo1/inspo-homepage",
     project_link: "https://thoughtful-thoughts.netlify.app/",
-  },
-
-  {
-    name: "Webpack Rock, Paper, Scissors",
-    description:
-      "This project centers on configuring Webpack for an already completed web app that currently lacks such build tools. The focus is on optimizing resource bundling within the application, following the steps outlined in Codecademy's 'Building Apps with Webpack' lesson.",
-    tags: [
-      {
-        name: "WebPack",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: webpackrockpasci,
-    source_code_link:
-      "https://github.com/Danieldo1/webpack-rock-paper-scissors",
-    project_link: "https://danieldo1.github.io/webpack-rock-paper-scissors/",
   },
   {
     name: "Personal Website",
@@ -427,27 +373,6 @@ const projects = [
     image: myWebsite,
     source_code_link: "https://github.com/Danieldo1/dani-sper",
     project_link: "https://www.dansper.live/",
-  },
-  {
-    name: "Travel Next",
-    description: "My journey into web development led me to embrace TypeScript and Next.js as the foundation for a captivating camping ground website. By harnessing the power of these technologies, I crafted an immersive user experience that caters to both mobile and desktop users, ensuring that everyone can explore and engage with the beauty of the camping ground effortlessly.",
-    tags: [
-      {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: travelapp,
-    source_code_link: "https://github.com/Danieldo1/travel-next",
-    project_link: "https://strong-sprinkles-84546c.netlify.app/",
   },
   {
     name: "WonderMart",
@@ -534,6 +459,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "Typescript",
+        color: "purple-text-gradient",
+      },
+      {
         name: "Tailwind CSS",
         color: "red-text-gradient",
       },
@@ -546,35 +475,35 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/movie-hub",
     project_link: "https://moviehub-io.vercel.app/discover/now_playing",
   },
-  {
-    name: "StringHub.io",
-    description: "A Social Media App StringHub is a sophisticated social media application that offers a comprehensive set of features to enable users to connect, share, and engage with one another. Built using cutting-edge technologies and a thoughtful approach to design, StringHub provides a platform for users to create accounts, log in, and share text-based posts seamlessly.",
-    tags: [
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Shadcn",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: stringhub,
-    source_code_link: "https://github.com/Danieldo1/StringHub.io-next",
-    project_link: "https://string-hub-i.vercel.app/sign-in",
-  },
+  // {
+  //   name: "StringHub.io",
+  //   description: "A Social Media App StringHub is a sophisticated social media application that offers a comprehensive set of features to enable users to connect, share, and engage with one another. Built using cutting-edge technologies and a thoughtful approach to design, StringHub provides a platform for users to create accounts, log in, and share text-based posts seamlessly.",
+  //   tags: [
+  //     {
+  //       name: "Typescript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Shadcn",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "Next.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: stringhub,
+  //   source_code_link: "https://github.com/Danieldo1/StringHub.io-next",
+  //   project_link: "https://string-hub-i.vercel.app/sign-in",
+  // },
  
   {
     name: "ChatterBox AI",
@@ -587,6 +516,10 @@ const projects = [
       {
         name: "Tailwind CSS",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
       },
       {
         name: "MySQL",
@@ -688,6 +621,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
         name: "Stripe",
         color: "purple-text-gradient",
       },
@@ -751,6 +688,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
         name: "MongoDB",
         color: "orange-text-gradient",
       },
@@ -784,6 +725,10 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
         name: "Convex",
         color: "pink-text-gradient",
       },
@@ -799,6 +744,43 @@ const projects = [
     image: drawit,
     source_code_link: "https://github.com/Danieldo1/imagine-it",
     project_link: "https://imagine-it.vercel.app/",
+  },
+  {
+    name: "Room.io",
+    description: "Room,io is a user-friendly web app that utilizes advanced AI to transform your living spaces. Easily visualize and generate personalized room designs with themed options, making room transformations a seamless and enjoyable experience.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Replicate",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Bytescale",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: roomio,
+    source_code_link: "https://github.com/Danieldo1/roomio",
+    project_link: "https://room-io.netlify.app/",
   }
   
   

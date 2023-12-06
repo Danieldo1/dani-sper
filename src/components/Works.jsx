@@ -105,7 +105,6 @@ const technologies = [
   "CSS",
   "Convex",
   "Expo Go",
-  "Figma",
   "Firebase",
   "HTML",
   "JavaScript",
@@ -118,14 +117,12 @@ const technologies = [
   "React Native",
   "React Router",
   "Redux",
-  "Redux RTK",
   "Replicate",
   "Shadcn",
   "Stripe",
   "Tailwind CSS",
   "Typescript",
   "Vite",
-  "WebPack",
   "Zustand",
 ];
 const Works = () => {

@@ -37,6 +37,7 @@ import dreamcanvas from './dreamcanvas.png';
 import moviehub from './moviehub.png';
 import retro from './retro.png';
 import drawit from './drawit.png';
+import roomio from './roomio.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -78,6 +79,7 @@ export {
   dreamcanvas,
   moviehub,
   drawit,
+  roomio,
 
   travelapp,
   ecom,
