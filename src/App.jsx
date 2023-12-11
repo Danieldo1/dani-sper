@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { HashLoader } from "react-spinners"
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Hero, Navbar, Works, Carousel,Footer} from "./components"
+import {About, Contact, Experience, Hero, Navbar, Works, Carousel,Footer,Bubblechat} from "./components"
 
 
 const App=()=> {
@@ -34,6 +34,7 @@ const App=()=> {
               <Navbar/>
               <Hero/>
             </div>
+            <Bubblechat />
             <About/>
             <Works/>
             <Experience/>

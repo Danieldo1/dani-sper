@@ -7,11 +7,13 @@ import Works from './Works';
 import Contact from './Contact';
 import Carousel from './Carousel';
 import Footer from './Footer';
+import Bubblechat from './Bubblechat';
 
 export {
   Hero,
   Navbar,
   Footer,
+  Bubblechat,
   About,
   Experience,
   Works,
