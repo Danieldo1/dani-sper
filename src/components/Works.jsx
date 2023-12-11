@@ -32,7 +32,7 @@ const ProjectCard = ({
         <div className={`relative w-full h-[230px] ${isLastThree ? 'mt-0' : ''}`}>
           {isLastThree && (
             <div className="absolute inset-[-40px] flex justify-end  card-img_hover ">
-              <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-pointer shadow-md dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] ">
+              <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] ">
               <p className="text-white font-bold text-[24px] z-10 animate-pulse">New</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const ProjectCard = ({
             loading="lazy"
           />
           {/* text */}
-          <div className="absolute inset-0 flex justify-between m-3 card-img_hover shadow-lg">
+          <div className="absolute inset-0 flex justify-between m-3 card-img_hover ">
             {/* github link */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
