@@ -19,7 +19,7 @@ export default function DarkModeToggle() {
                 checked={darkMode}
                 onChange={toggleDarkMode}
                 size={25}
-                className="animate-pulse hover:animate-none"
+                className=""
             />
     );
 }

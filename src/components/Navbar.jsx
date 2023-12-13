@@ -14,7 +14,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 dark:bg-primary light: bg-purple-100`}
+      className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 dark:bg-primary light: bg-purple-100`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -41,7 +41,7 @@ const Navbar = () => {
         </Link>
            <DarkModeToggle />
           {/* ADD SWITCH HERE */}
-        <ul className=" list-none hidden sm:flex flex-row gap-10 ">
+        <ul className=" list-none hidden lg:flex flex-row gap-10 ">
           {navLinks.map((Link) => (
             <li
               key={Link.id}
@@ -54,7 +54,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -64,15 +64,15 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-0 min-w-[140px] z-10 rounded-xl`}
+            } px-12 py-5 black-gradient absolute  justify-center top-20 right-0 mx-4 my-0 z-10 rounded-xl`}
           >
-            <ul className=" list-none flex justify-end items-start flex-col gap-4 ">
+            <ul className=" list-none flex justify-center text-center items-center flex-col gap-4 ">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
                   className={`${
                     active === Link.title ? "text-white" : "text-white"
-                  } font-poppins font-medium cursor-pointer text-[16px] `}
+                  } font-poppins font-medium cursor-pointer text-[16px] hover:underline `}
                   onClick={() => {
                     setActive(Link.title);
                     setToggle(!toggle);

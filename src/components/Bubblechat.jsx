@@ -1,12 +1,12 @@
 import { BubbleChat } from 'flowise-embed-react'
 
 const Bubblechat = () => {
+    
     return (
-        <>
-         <div className="w-4 h-4 fixed bottom-[55px] z-50 right-[20px] rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff3d3d] ">
-              <p className=" text-white font-semibold text-[14px] animate-[pulse_2s_infinite]"></p>
+        <div className='group tooltip hover:animate-none' data-tip='Chat with Daniel'>
+         <div className="w-4 h-4 fixed bottom-[55px] z-50 right-[20px] rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff3d3d] animate-[ping_3s_infinite]" >
+              <p className=" text-white font-semibold text-[14px] "></p>
          </div>
-     
         <BubbleChat
             chatflowid="6742cb5a-d562-4f7f-8ad6-24ba0edb0c2e"
             apiHost="https://flowiseai-railway-production-20c8.up.railway.app"
@@ -52,7 +52,7 @@ const Bubblechat = () => {
         />
        
       
-        </>
+        </div>
     );
 };
 

@@ -50,7 +50,8 @@ import {
   dreamcanvas,
   retro,
   drawit,
-  roomio
+  roomio,
+  intellichat,
 } from "../assets";
 
 export const navLinks = [
@@ -777,10 +778,53 @@ const projects = [
         name: "Clerk",
         color: "yellow-text-gradient",
       },
+ 
     ],
     image: roomio,
     source_code_link: "https://github.com/Danieldo1/roomio",
     project_link: "https://room-io.netlify.app/",
+  },
+  {
+    name: "IntelliChat",
+    description: "IntelliChat is an AI-powered LLM (Language Model) application that uses ChatGPT4 to have interactive conversations with users. It stores user interactions in a database, allowing for seamless continuation of conversations. What makes IntelliChat unique is its ability to access the web through API endpoints, enabling it to perform Google searches and retrieve information on a wide range of topics. ",
+    tags: [
+      {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },      
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "FlowiseAI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "yellow-text-gradient",
+      },
+
+      {
+        name: "API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UpStash",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "custom-text-gradient",
+      },
+    ],
+    image: intellichat,
+    source_code_link: "https://github.com/Danieldo1/Intelli-bot",
+    project_link: "https://intelli-chat-bot.vercel.app/",
   }
   
   

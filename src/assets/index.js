@@ -38,6 +38,7 @@ import moviehub from './moviehub.png';
 import retro from './retro.png';
 import drawit from './drawit.png';
 import roomio from './roomio.png';
+import intellichat from './intellichat.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -80,6 +81,7 @@ export {
   moviehub,
   drawit,
   roomio,
+  intellichat,
 
   travelapp,
   ecom,
