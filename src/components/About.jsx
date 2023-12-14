@@ -42,9 +42,9 @@ const ServiceCard = ({index,title,icon,link}) => {
 const About = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div variants={textVariant()} className='pt-32 md:pt-0'>
       <p className={`${styles.sectionSubText} dark:text-white light: text-midnight-100`} >Introduction</p>
-      <h2 className={`${styles.sectionHeadText} dark:text-white light: text-midnight-100`} >Overview</h2>
+      <h2 className={`${styles.sectionHeadText} dark:text-white light: text-midnight-100`} >About Me</h2>
     </motion.div>
 
     <motion.p 

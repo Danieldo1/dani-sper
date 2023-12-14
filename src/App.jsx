@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { HashLoader } from "react-spinners"
 import { BrowserRouter } from "react-router-dom"
 import {About, Contact, Experience, Hero, Navbar, Works, Carousel,Footer,Bubblechat} from "./components"
@@ -6,15 +6,17 @@ import {About, Contact, Experience, Hero, Navbar, Works, Carousel,Footer,Bubblec
 
 const App=()=> {
   const [isLoading, setIsLoading] = useState(true);
-  
-  useEffect(() => {
-    const simulateAsyncOperation = () => {
+  const someRequest = ()=> {
+    return new Promise((resolve, reject) => {
       setTimeout(() => {
-        setIsLoading(false); 
-      }, 3000); 
-    };
-
-    simulateAsyncOperation(); 
+        resolve();
+      }, 3000);
+    });
+  }
+  useEffect(() => {
+    someRequest().then(() => {
+      setIsLoading(false);
+    });
   }, []);
 
   return (
