@@ -15,7 +15,8 @@ const ProjectCard = ({
   description,
   tags,
   source_code_link,
-  project_link
+  project_link,
+
 }) => {
   
 
@@ -101,6 +102,7 @@ const ProjectCard = ({
 const technologies = [
   
   "API",
+  "AWS S3",
   "CronJob",
   "CSS",
   "Convex",
@@ -118,18 +120,19 @@ const technologies = [
   "React Router",
   "Redux",
   "Replicate",
+  "Sanity",
   "Shadcn",
   "Stripe",
   "Tailwind CSS",
   "Typescript",
   "Vite",
   "Zustand",
+  "N"
+ 
 ];
 const Works = () => {
-  const [activeFilters, setActiveFilters] = useState([]);
- 
- 
-
+  const [activeFilters, setActiveFilters] = useState(['N']);
+  
   const toggleFilter = (filter) => {
     if (activeFilters.includes(filter)) {
      
@@ -139,6 +142,7 @@ const Works = () => {
       setActiveFilters([...activeFilters, filter]);
     }
   };
+
 
   const generateButtons = () => {
 
@@ -151,7 +155,8 @@ const Works = () => {
           activeFilters.includes(tech) ? "hover:bg-neutral-900 bg-secondary dark:hover:text-white  dark:text-midnight-100 light: text-white" : null }`}
      
       >
-        {tech}
+        {tech === 'N' ? 'Show New' : tech}
+        
       </motion.button>
     ));
   };
@@ -188,16 +193,17 @@ const Works = () => {
       <div className="mt-5 flex-1 gap-3 ">
     <p className={`${styles.sectionSubText} my-4 font-semibold text-base dark:text-white light: text-midnight-100`}>Filters:</p>
       {generateButtons()}
-        
+      
       </div>
 
       {/* Wrapper for projects */}
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           // Only render projects that match the active filters
+      
           (activeFilters.length === 0 || 
             project.tags.some((tag) => activeFilters.includes(tag.name))) && (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
+            <ProjectCard key={`project-${index}`} index={index} {...project}  />
           )
         ))}
       </div>

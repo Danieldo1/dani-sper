@@ -3,11 +3,11 @@ import React, {useEffect, useState} from 'react'
 import {styles} from '../styles'
 
 import { useInView } from "react-intersection-observer";
-import MyLight1 from '../assets/finalComp/1LightBg-min.png'
+import MyLight1 from '../assets/finalComp/1LightBg-min.webp'
 import MyDark1 from '../assets/finalComp/1DarkBg-min.png'
 
-import MyLight2 from '../assets/finalComp/2LightBg-min.png'
-import MyDark2 from '../assets/finalComp/2DarkBg-min.png'
+import MyLight2 from '../assets/finalComp/2LightBg-min.webp'
+import MyDark2 from '../assets/finalComp/2DarkBg-min.webp'
 
 
 const Hero = () => {

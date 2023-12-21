@@ -39,6 +39,8 @@ import retro from './retro.png';
 import drawit from './drawit.png';
 import roomio from './roomio.png';
 import intellichat from './intellichat.png';
+import earthwisew from './earthwisew.png';
+import unilinkw from './unilinkw.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -82,6 +84,8 @@ export {
   drawit,
   roomio,
   intellichat,
+  earthwisew,
+  unilinkw,
 
   travelapp,
   ecom,

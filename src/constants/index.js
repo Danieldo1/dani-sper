@@ -52,6 +52,8 @@ import {
   drawit,
   roomio,
   intellichat,
+  earthwisew,
+  unilinkw,
 } from "../assets";
 
 export const navLinks = [
@@ -645,6 +647,10 @@ const projects = [
         name: "Tailwind CSS",
         color: "blue-text-gradient",
       },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: OmniChat,
     source_code_link: "https://github.com/Danieldo1/omnichat-next",
@@ -670,6 +676,10 @@ const projects = [
       {
         name: "Tailwind CSS",
         color: "blue-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
       },
     ],
     image: dreamcanvas,
@@ -708,6 +718,10 @@ const projects = [
         name: "tRPC",
         color: "pink-text-gradient",
       },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: retro,
     source_code_link: "https://github.com/Danieldo1/Retro-Emporium",
@@ -740,6 +754,10 @@ const projects = [
       {
         name: "Replicate",
         color: "orange-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
       },
     ],
     image: drawit,
@@ -778,7 +796,10 @@ const projects = [
         name: "Clerk",
         color: "yellow-text-gradient",
       },
- 
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: roomio,
     source_code_link: "https://github.com/Danieldo1/roomio",
@@ -808,7 +829,6 @@ const projects = [
         name: "Tailwind CSS",
         color: "yellow-text-gradient",
       },
-
       {
         name: "API",
         color: "blue-text-gradient",
@@ -821,10 +841,88 @@ const projects = [
         name: "Shadcn",
         color: "custom-text-gradient",
       },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: intellichat,
     source_code_link: "https://github.com/Danieldo1/Intelli-bot",
     project_link: "https://intelli-chat-bot.vercel.app/",
+  },
+  {
+    name: "EarthWise",
+    description: "EarthWise is an eco-friendly e-commerce platform that offers a seamless and responsive shopping experience, complete with real-time product updates and customizable features. It focuses on user convenience with a persistent shopping cart and secure integrated checkout, ensuring a delightful and modern online shopping journey.",
+    tags: [
+      {
+        name: "Shadcn",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: earthwisew,
+    source_code_link: "https://github.com/Danieldo1/earth-wise-e-com",
+    project_link: "https://earth-wise.vercel.app/",
+  },
+  {
+    name: "UniLink",
+    description: "UniLinks is a web application that centralizes all your social media and professional links into a single, easy-to-share profile, providing an efficient way to manage and present your online presence. It features a customizable interface with secure login, real-time analytics, and a user-friendly admin panel for profile personalization and link management.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: unilinkw,
+    source_code_link: "https://github.com/Danieldo1/make-a-link",
+    project_link: "https://uni-links.vercel.app/",
   }
   
   
@@ -841,7 +939,7 @@ const projects = [
 //   image: "",
 //   source_code_link: "",
 //   project_link: "",
-// }
+// },
 
 const certifications = [
   {
