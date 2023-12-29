@@ -21,7 +21,7 @@ const ProjectCard = ({
   
 
   
-  const isLastThree = index >= projects.length - 8;
+  const isLastThree = index >= projects.length - 10;
 
   return (
       <Tilt

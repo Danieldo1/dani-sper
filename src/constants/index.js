@@ -453,31 +453,7 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/next-scrapper",
     project_link: "https://next-scrapper-swart.vercel.app/",
   },
-  {
-    name: "MovieHub",
-    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "red-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-    ],
-    image: moviehub,
-    source_code_link: "https://github.com/Danieldo1/movie-hub",
-    project_link: "https://moviehub-io.vercel.app/discover/now_playing",
-  },
+
   // {
   //   name: "StringHub.io",
   //   description: "A Social Media App StringHub is a sophisticated social media application that offers a comprehensive set of features to enable users to connect, share, and engage with one another. Built using cutting-edge technologies and a thoughtful approach to design, StringHub provides a platform for users to create accounts, log in, and share text-based posts seamlessly.",
@@ -508,6 +484,32 @@ const projects = [
   //   project_link: "https://string-hub-i.vercel.app/sign-in",
   // },
  
+ 
+  {
+    name: "Woltaroo",
+    description: "Woltaroo, my debut React Native project inspired by Deliveroo, simplifies food ordering. Users seamlessly discover, choose, and order their favorite dishes from local restaurants, showcasing the simplicity and efficiency of my initial foray into React Native development.",
+    tags: [
+      {
+        name: "React Native",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Expo Go",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+      {
+         name: "API",
+         color: "blue-text-gradient",
+      },
+    ],
+    image: woltaroo,
+    source_code_link: "https://github.com/Danieldo1/woltaroo-reactNative",
+    project_link: "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
+  },
   {
     name: "ChatterBox AI",
     description: "Introducing ChatterBox AI, my latest project in AI SaaS. Powered by five advanced AI tools, it features the Next.js 13 App Router for smooth client-side routing and a seamlessly integrated Stripe subscription system. With a robust tech stack including React, Tailwind CSS, Prisma, MySQL, and more, my goal is to craft a fully functional AI SaaS platform with a beautifully designed user interface. Join me in revolutionizing AI interactions!",
@@ -544,10 +546,43 @@ const projects = [
         name: "OpenAi",
         color: "purple-text-gradient",
       }, 
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: chatterbox,
     source_code_link: "https://github.com/Danieldo1/chatter-box-ai",
     project_link: "https://chatter-box-delta.vercel.app/",
+  },
+  {
+    name: "MovieHub",
+    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: moviehub,
+    source_code_link: "https://github.com/Danieldo1/movie-hub",
+    project_link: "https://moviehub-io.vercel.app/discover/now_playing",
   },
   {
     name: "Personify AI",
@@ -585,36 +620,16 @@ const projects = [
         name: "Prisma/MySQL",
         color: "green-text-gradient",
       },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
     ],
     image: personifyai,
     source_code_link: "https://github.com/Danieldo1/Personify-AI",
     project_link: "https://personify-ai.vercel.app/",
   },
-  {
-    name: "Woltaroo",
-    description: "Woltaroo, my debut React Native project inspired by Deliveroo, simplifies food ordering. Users seamlessly discover, choose, and order their favorite dishes from local restaurants, showcasing the simplicity and efficiency of my initial foray into React Native development.",
-    tags: [
-      {
-        name: "React Native",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Expo Go",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Zustand",
-        color: "green-text-gradient",
-      },
-      {
-         name: "API",
-         color: "blue-text-gradient",
-      },
-    ],
-    image: woltaroo,
-    source_code_link: "https://github.com/Danieldo1/woltaroo-reactNative",
-    project_link: "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
-  },
+
   {
     name: "OmniChat Connect",
     description: "Explore the future of communication with OmniChat - the innovative chat platform that seamlessly translates messages, ensures secure payments with Stripe, and offers a visually stunning interface. Elevate your conversations and experience a new era in chatting.",
@@ -686,47 +701,47 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/dream-canvas",
     project_link: "https://dream-canvas.vercel.app/",
   },
-  {
-    name: "Retro Emporium",
-    description: "Retro Emporium is a vibrant digital marketplace that invites users to rediscover the allure of retro aesthetics. From NFTs to pixel art/posters and fonts, the platform offers a curated selection of nostalgic digital assets, providing a seamless shopping experience and empowering sellers with personalized dashboards.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "red-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Zustand",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Shadcn",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "tRPC",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
-    ],
-    image: retro,
-    source_code_link: "https://github.com/Danieldo1/Retro-Emporium",
-    project_link: "https://retro-emporium-production.up.railway.app/",
-  },
+  // {
+  //   name: "Retro Emporium",
+  //   description: "Retro Emporium is a vibrant digital marketplace that invites users to rediscover the allure of retro aesthetics. From NFTs to pixel art/posters and fonts, the platform offers a curated selection of nostalgic digital assets, providing a seamless shopping experience and empowering sellers with personalized dashboards.",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Zustand",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "Shadcn",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "tRPC",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "N",
+  //       color: "transparent-color",
+  //     },
+  //   ],
+  //   image: retro,
+  //   source_code_link: "https://github.com/Danieldo1/Retro-Emporium",
+  //   project_link: "https://retro-emporium-production.up.railway.app/",
+  // },
   {
     name: "Draw it",
     description: "Draw-it is an innovative web application designed to transform user doodles into realistic images through the power of artificial intelligence. This document outlines the key features and functionalities of Draw-it, which is built using the latest web technologies.",
@@ -803,7 +818,7 @@ const projects = [
     ],
     image: roomio,
     source_code_link: "https://github.com/Danieldo1/roomio",
-    project_link: "https://room-io.netlify.app/",
+    project_link: "https://roomio.vercel.app/",
   },
   {
     name: "IntelliChat",
