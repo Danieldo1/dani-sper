@@ -4,7 +4,7 @@ const Bubblechat = () => {
     
     return (
         <div className='group tooltip hover:animate-none' data-tip='Chat with Daniel'>
-         <div className="w-4 h-4 fixed bottom-[55px] z-50 right-[20px] rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff3d3d] animate-[ping_3s_infinite]" >
+         <div className="w-4 h-4 fixed bottom-[55px] z-50 right-[20px] rounded-full flex justify-center items-center cursor-default  bg-[#ff3d3d] animate-[ping_3s_infinite]" >
               <p className=" text-white font-semibold text-[14px] "></p>
          </div>
         <BubbleChat
