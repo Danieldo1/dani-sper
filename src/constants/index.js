@@ -21,6 +21,7 @@ import {
   uibs,
   goldr,
   codec,
+  freelance,
 
 
 
@@ -54,6 +55,7 @@ import {
   intellichat,
   earthwisew,
   unilinkw,
+  bar,
 } from "../assets";
 
 export const navLinks = [
@@ -196,6 +198,28 @@ const experiences = [
       },
     ],
   },
+  {
+    title: "Full Stack Developer",
+    company_name: "Self Employed",
+    location: "Tbilisi, Georgia",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "May 2023 - Present",
+    points: [
+      {
+        title: "Establishing Stack",
+        content: "My preferred stack for creating websites consists of Next.js for a React-powered frontend, MongoDB for the database layer, and TailwindCSS for streamlined, utility-first styling, providing a cohesive and developer-friendly environment for full-stack development.",
+      },
+      {
+        title: "Market Position",
+        content: "I successfully secured a freelance job online by showcasing my expertise and portfolio, tapping into job platforms that connect freelancers with clients looking for specialized skills and project assistance.",
+      },
+      {
+        title: "Sharing & Collaboration",
+        content: "I actively engage with the tech community on LinkedIn and GitHub, where I share my completed projects and connect with other professionals, promoting collaboration and showcasing my contributions to the field of software development.",
+      },
+    ],
+  }
 ];
 
 const projects = [
@@ -938,7 +962,52 @@ const projects = [
     image: unilinkw,
     source_code_link: "https://github.com/Danieldo1/make-a-link",
     project_link: "https://uni-links.vercel.app/",
-  }
+  },
+  {
+    name: "3035 Lounge",
+    description: "3035 Lounge is a custom e-menu platform for a hookah lounge, designed to facilitate easy menu browsing on mobile devices while enabling staff to update offerings in real-time through an advanced admin panel. This paid solution elevates the customer experience and simplifies menu management for the business.Since its a real project admin panel details are not provided.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "Next-auth",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Sortable.js",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: bar,
+    source_code_link: "https://github.com/Danieldo1/code3035",
+    project_link: "https://code3035.vercel.app/",
+  },
   
   
 ];

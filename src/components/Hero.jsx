@@ -64,8 +64,8 @@ const Hero = () => {
             Hi, I'm <span className='dark:text-[#915eff] light: text-coral'>Daniil</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 dark:text-white-100 light: text-black`}>
-            A passionate and aspiring web developer <br className='hidden sm:block' />
-            with a knack for turning ideas into beautiful, functional websites.
+          A passionate and dedicated  <span className='dark:text-[#915eff] light: text-coral font-bold'>Full Stack Developer </span><br className='hidden sm:block' />
+          with a flair for creating intuitive, high-quality websites that seamlessly turn ideas into digital realities.
           </p>
         
           <button className='dark:text-white light: text-midnight-100 border-2 light: border-coral dark:border-[#915eff] px-6 py-2 rounded-full mt-4 light: hover:bg-coral light: hover:text-white hover:dark:bg-[#915eff] hover:dark:text-midnight-100'>

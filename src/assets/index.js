@@ -10,6 +10,7 @@ import HPS from './company/HPS.png';
 import uibs from './company/uibs.png';
 import goldr from './company/goldr.png';
 import codec from './company/codec.png';
+import freelance from './freelance.svg';
 
 import ColmarAcd from './ColmarAcd.png';
 import Expenses from './Expenses.png';
@@ -41,6 +42,7 @@ import roomio from './roomio.png';
 import intellichat from './intellichat.png';
 import earthwisew from './earthwisew.png';
 import unilinkw from './unilinkw.png';
+import bar from './bar.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -86,6 +88,7 @@ export {
   intellichat,
   earthwisew,
   unilinkw,
+  bar,
 
   travelapp,
   ecom,
@@ -120,4 +123,5 @@ githubPink,
   goldr,
   codec,
   chrome,
+  freelance,
 };
