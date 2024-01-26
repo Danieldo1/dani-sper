@@ -43,6 +43,7 @@ import intellichat from './intellichat.png';
 import earthwisew from './earthwisew.png';
 import unilinkw from './unilinkw.png';
 import bar from './bar.png';
+import alterimage from './alterimage.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -89,6 +90,7 @@ export {
   earthwisew,
   unilinkw,
   bar,
+  alterimage,
 
   travelapp,
   ecom,

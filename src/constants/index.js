@@ -56,6 +56,7 @@ import {
   earthwisew,
   unilinkw,
   bar,
+  alterimage,
 } from "../assets";
 
 export const navLinks = [
@@ -983,10 +984,7 @@ const projects = [
         name: "Tailwind CSS",
         color: "purple-text-gradient",
       },
-      {
-        name: "Tailwind CSS",
-        color: "custom-text-gradient",
-      },
+   
       {
         name: "Next-auth",
         color: "yellow-text-gradient",
@@ -1008,7 +1006,51 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/code3035",
     project_link: "https://code3035.vercel.app/",
   },
-  
+  {
+    name: "AIterImage",
+    description: "AIterImage is an innovative web application that harnesses the power of artificial intelligence to transform users' portrait photos into stunning pieces of art. By integrating with the Replicate AI API, AIterImage offers users the ability to reimagine their portraits with a variety of styles and backgrounds, providing a unique and personalized experience.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: alterimage,
+    source_code_link: "https://github.com/Danieldo1/edit-it",
+    project_link: "https://alter-image.vercel.app/",
+  },
   
 ];
 // {
