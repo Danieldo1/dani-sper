@@ -28,25 +28,27 @@ const Navbar = () => {
           {/* LOGO GOES HERE */}
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <FancyText
-      gradient={{ from: '#b50717', to: '#ad3c69', type: 'linear' }}
-      animateTo={{ from: '#794980', to: '#372f53' }}
-      animateDuration={2000}
-    >
-          <p className="  dark:text-white text-[25px] font-bold cursor-pointer flex light: text-coral-400">
-            Daniil&nbsp;
-            <span className="sm:block hidden">| Web Developer</span>
-          </p>
+            gradient={{ from: "#b50717", to: "#ad3c69", type: "linear" }}
+            animateTo={{ from: "#794980", to: "#372f53" }}
+            animateDuration={2000}
+          >
+            <p className="  dark:text-white text-[25px] font-bold cursor-pointer flex light: text-coral-400">
+              Daniil&nbsp;
+              <span className="sm:block hidden">| Web Developer</span>
+            </p>
           </FancyText>
           {/* ENDS HERE */}
         </Link>
-           <DarkModeToggle />
-          {/* ADD SWITCH HERE */}
+        <DarkModeToggle />
+        {/* ADD SWITCH HERE */}
         <ul className=" list-none hidden lg:flex flex-row gap-10 ">
           {navLinks.map((Link) => (
             <li
               key={Link.id}
               className={`${
-                active === Link.title ? "dark:text-white light: text-midnight-100" : "dark:text-secondary light: text-coral-400"
+                active === Link.title
+                  ? "dark:text-white light: text-midnight-100"
+                  : "dark:text-secondary light: text-coral-400"
               } dark:hover:text-white text-[18px] font-medium cursor-pointer  light: hover:text-midnight-100`}
               onClick={() => setActive(Link.title)}
             >
@@ -63,16 +65,16 @@ const Navbar = () => {
           />
           <div
             className={`${
-              !toggle ? "hidden " : "flex "
-            } px-12 py-5 black-gradient absolute  justify-center top-20 right-0 mx-4 my-0 z-10 rounded-xl`}
+              !toggle ? "hidden fade-in-out" : " fade-in-out"
+            } px-12 py-5 black-gradient absolute w-full h-screen justify-center top-16 right-0 my-0 rounded-md`}
           >
-            <ul className=" list-none flex justify-center text-center items-center flex-col gap-4 ">
+            <ul className=" list-none flex justify-start text-center items-center flex-col gap-10 ">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ? "text-white" : "text-white"
-                  } font-poppins font-medium cursor-pointer text-[16px] hover:underline `}
+                    active === Link.title ? "text-primary/80" : "text-white"
+                  } font-poppins font-bold text-xl  cursor-pointer text-[16px] hover:underline `}
                   onClick={() => {
                     setActive(Link.title);
                     setToggle(!toggle);

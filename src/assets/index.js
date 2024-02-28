@@ -44,6 +44,7 @@ import earthwisew from './earthwisew.png';
 import unilinkw from './unilinkw.png';
 import bar from './bar.png';
 import alterimage from './alterimage.png';
+import petplus from './pet_plus.jpg';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -91,6 +92,7 @@ export {
   unilinkw,
   bar,
   alterimage,
+  petplus,
 
   travelapp,
   ecom,

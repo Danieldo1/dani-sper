@@ -1,11 +1,8 @@
 import {
-
   facebookPink,
   instagramPink,
   linkedinPink,
   githubPink,
-
- 
   colorDesign,
   cssInJs,
   htmlCert,
@@ -22,9 +19,6 @@ import {
   goldr,
   codec,
   freelance,
-
-
-
   ColmarAcd,
   Expenses,
   UsersSteps,
@@ -57,6 +51,7 @@ import {
   unilinkw,
   bar,
   alterimage,
+  petplus,
 } from "../assets";
 
 export const navLinks = [
@@ -82,25 +77,24 @@ const services = [
   {
     title: "Github",
     icon: githubPink,
-    link: 'https://github.com/danieldo1'
+    link: "https://github.com/danieldo1",
   },
   {
     title: "Instagram",
-    icon:   instagramPink,
-    link: 'https://www.instagram.com/dani8l_sp/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr'
+    icon: instagramPink,
+    link: "https://www.instagram.com/dani8l_sp/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr",
   },
   {
     title: "Facebook",
     icon: facebookPink,
-    link: 'https://www.facebook.com/daniel.speranskiy1'
+    link: "https://www.facebook.com/daniel.speranskiy1",
   },
   {
     title: "LinkedIn",
     icon: linkedinPink,
-    link: 'https://www.linkedin.com/in/daniil-speranskii/'
+    link: "https://www.linkedin.com/in/daniil-speranskii/",
   },
 ];
-
 
 // Timeline Cards
 const experiences = [
@@ -171,7 +165,7 @@ const experiences = [
         title: "Proactive Initiative",
         content:
           "I proactively sought opportunities to contribute and excel in areas that extended beyond my job description. I consistently went the extra mile, willingly taking on additional tasks and challenges, driven by a strong work ethic and a commitment to achieving exceptional results.",
-      },  
+      },
     ],
   },
   {
@@ -209,18 +203,21 @@ const experiences = [
     points: [
       {
         title: "Establishing Stack",
-        content: "My preferred stack for creating websites consists of Next.js for a React-powered frontend, MongoDB for the database layer, and TailwindCSS for streamlined, utility-first styling, providing a cohesive and developer-friendly environment for full-stack development.",
+        content:
+          "My preferred stack for creating websites consists of Next.js for a React-powered frontend, MongoDB for the database layer, and TailwindCSS for streamlined, utility-first styling, providing a cohesive and developer-friendly environment for full-stack development.",
       },
       {
         title: "Market Position",
-        content: "I successfully secured a freelance job online by showcasing my expertise and portfolio, tapping into job platforms that connect freelancers with clients looking for specialized skills and project assistance.",
+        content:
+          "I successfully secured a freelance job online by showcasing my expertise and portfolio, tapping into job platforms that connect freelancers with clients looking for specialized skills and project assistance.",
       },
       {
         title: "Sharing & Collaboration",
-        content: "I actively engage with the tech community on LinkedIn and GitHub, where I share my completed projects and connect with other professionals, promoting collaboration and showcasing my contributions to the field of software development.",
+        content:
+          "I actively engage with the tech community on LinkedIn and GitHub, where I share my completed projects and connect with other professionals, promoting collaboration and showcasing my contributions to the field of software development.",
       },
     ],
-  }
+  },
 ];
 
 const projects = [
@@ -379,7 +376,8 @@ const projects = [
   },
   {
     name: "Personal Website",
-    description: "Discover my digital hub – a dynamic and interactive personal website crafted with Vite and React. Explore my journey, skills, and passions through an immersive digital experience. Stay up-to-date with my latest projects, insights, and creative endeavors. Welcome to my online world.",
+    description:
+      "Discover my digital hub – a dynamic and interactive personal website crafted with Vite and React. Explore my journey, skills, and passions through an immersive digital experience. Stay up-to-date with my latest projects, insights, and creative endeavors. Welcome to my online world.",
     tags: [
       {
         name: "React",
@@ -404,7 +402,8 @@ const projects = [
   },
   {
     name: "WonderMart",
-    description: "The E-Comm Next.js Test Project offers an immersive learning experience in web development, with a specific focus on API calls and Next.js, a robust React framework. It demonstrates the effective use of Next.js and its routing system to fetch product details from the Fakestore API, showcasing how Next.js seamlessly integrates APIs and handles dynamic content rendering.",
+    description:
+      "The E-Comm Next.js Test Project offers an immersive learning experience in web development, with a specific focus on API calls and Next.js, a robust React framework. It demonstrates the effective use of Next.js and its routing system to fetch product details from the Fakestore API, showcasing how Next.js seamlessly integrates APIs and handles dynamic content rendering.",
     tags: [
       {
         name: "Typescript",
@@ -425,7 +424,8 @@ const projects = [
   },
   {
     name: "Country Info",
-    description: "The Country Information App, created with Next.js and TypeScript, offers users a convenient way to explore details about countries worldwide. Leveraging a countries API, it showcases country flags, capital cities, populations, regions, Google Maps integration, and more. Users can click on a flag to access in-depth information about each country, making it an engaging resource for learning about the world.",
+    description:
+      "The Country Information App, created with Next.js and TypeScript, offers users a convenient way to explore details about countries worldwide. Leveraging a countries API, it showcases country flags, capital cities, populations, regions, Google Maps integration, and more. Users can click on a flag to access in-depth information about each country, making it an engaging resource for learning about the world.",
     tags: [
       {
         name: "Typescript",
@@ -451,7 +451,8 @@ const projects = [
 
   {
     name: "PriceScraper",
-    description: "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
+    description:
+      "PriceScrapper is my Next.js-powered Amazon Product Price Tracker, offering real-time insights and empowering users to track price changes effortlessly. With features like web scraping, dynamic product pages, and automated email notifications, this project ensures you stay informed. Explore the live site, contribute to its development, and never miss a price drop on your favorite Amazon products!",
     tags: [
       {
         name: "Next.js",
@@ -474,7 +475,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image:pricescraper ,
+    image: pricescraper,
     source_code_link: "https://github.com/Danieldo1/next-scrapper",
     project_link: "https://next-scrapper-swart.vercel.app/",
   },
@@ -508,11 +509,11 @@ const projects = [
   //   source_code_link: "https://github.com/Danieldo1/StringHub.io-next",
   //   project_link: "https://string-hub-i.vercel.app/sign-in",
   // },
- 
- 
+
   {
     name: "Woltaroo",
-    description: "Woltaroo, my debut React Native project inspired by Deliveroo, simplifies food ordering. Users seamlessly discover, choose, and order their favorite dishes from local restaurants, showcasing the simplicity and efficiency of my initial foray into React Native development.",
+    description:
+      "Woltaroo, my debut React Native project inspired by Deliveroo, simplifies food ordering. Users seamlessly discover, choose, and order their favorite dishes from local restaurants, showcasing the simplicity and efficiency of my initial foray into React Native development.",
     tags: [
       {
         name: "React Native",
@@ -527,20 +528,75 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-         name: "API",
-         color: "blue-text-gradient",
+        name: "API",
+        color: "blue-text-gradient",
       },
     ],
     image: woltaroo,
     source_code_link: "https://github.com/Danieldo1/woltaroo-reactNative",
-    project_link: "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
+    project_link:
+      "https://drive.google.com/file/d/1RIY1sKCQh83DD4_TfZZ70BBbU7e2g_js/view",
   },
+  // {
+  //   name: "ChatterBox AI",
+  //   description: "Introducing ChatterBox AI, my latest project in AI SaaS. Powered by five advanced AI tools, it features the Next.js 13 App Router for smooth client-side routing and a seamlessly integrated Stripe subscription system. With a robust tech stack including React, Tailwind CSS, Prisma, MySQL, and more, my goal is to craft a fully functional AI SaaS platform with a beautifully designed user interface. Join me in revolutionizing AI interactions!",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "MySQL",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Stripe",
+  //       color: "custom-text-gradient",
+  //     },
+  //     {
+  //       name: "Prisma",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Shadcn",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAi",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "N",
+  //       color: "transparent-color",
+  //     },
+  //   ],
+  //   image: chatterbox,
+  //   source_code_link: "https://github.com/Danieldo1/chatter-box-ai",
+  //   project_link: "https://chatter-box-delta.vercel.app/",
+  // },
   {
-    name: "ChatterBox AI",
-    description: "Introducing ChatterBox AI, my latest project in AI SaaS. Powered by five advanced AI tools, it features the Next.js 13 App Router for smooth client-side routing and a seamlessly integrated Stripe subscription system. With a robust tech stack including React, Tailwind CSS, Prisma, MySQL, and more, my goal is to craft a fully functional AI SaaS platform with a beautifully designed user interface. Join me in revolutionizing AI interactions!",
+    name: "DreamCanvas",
+    description:
+      "DreamCanvas combines React, Vite, DALL-E AI, and MongoDB to transform text prompts into unique images. With seamless navigation, image storage, and easy downloads, it offers a creative platform for users to explore, create, and enjoy a personalized gallery of AI-generated masterpieces.",
     tags: [
       {
-        name: "Next.js",
+        name: "Vite",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
@@ -548,41 +604,18 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Typescript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Stripe",
-        color: "custom-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Shadcn",
-        color: "red-text-gradient",
-      },
-      {
-        name: "OpenAi",
-        color: "purple-text-gradient",
-      }, 
-      {
         name: "N",
         color: "transparent-color",
       },
     ],
-    image: chatterbox,
-    source_code_link: "https://github.com/Danieldo1/chatter-box-ai",
-    project_link: "https://chatter-box-delta.vercel.app/",
+    image: dreamcanvas,
+    source_code_link: "https://github.com/Danieldo1/dream-canvas",
+    project_link: "https://dream-canvas.vercel.app/",
   },
   {
     name: "MovieHub",
-    description: "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
+    description:
+      "MovieHub is a user-friendly movie information website that allows users to explore and learn about movies by selecting genres, viewing detailed information, and utilizing a search bar. It aims to provide a visually appealing and responsive platform for seamless navigation and discovery of a wide range of films.",
     tags: [
       {
         name: "Next.js",
@@ -609,55 +642,56 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/movie-hub",
     project_link: "https://moviehub-io.vercel.app/discover/now_playing",
   },
-  {
-    name: "Personify AI",
-    description: "Personify AI Chat Platform is an application built with Next.js, providing a unique and interactive AI chatting experience. Leveraging the Replicate Llama Chat AI, users can authenticate and engage in conversations with AI personas that have memory retention and programmable characteristics.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "red-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Shadcn",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Zustand",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "OpenAi",
-        color: "blue-text-gradient",
-      }, 
-      {
-        name: "Stripe",
-        color: "custom-text-gradient",
-      },
-      {
-        name: "Prisma/MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
-    ],
-    image: personifyai,
-    source_code_link: "https://github.com/Danieldo1/Personify-AI",
-    project_link: "https://personify-ai.vercel.app/",
-  },
+  // {
+  //   name: "Personify AI",
+  //   description: "Personify AI Chat Platform is an application built with Next.js, providing a unique and interactive AI chatting experience. Leveraging the Replicate Llama Chat AI, users can authenticate and engage in conversations with AI personas that have memory retention and programmable characteristics.",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "TailwindCSS",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Shadcn",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "Zustand",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAi",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Stripe",
+  //       color: "custom-text-gradient",
+  //     },
+  //     {
+  //       name: "Prisma/MySQL",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "N",
+  //       color: "transparent-color",
+  //     },
+  //   ],
+  //   image: personifyai,
+  //   source_code_link: "https://github.com/Danieldo1/Personify-AI",
+  //   project_link: "https://personify-ai.vercel.app/",
+  // },
 
   {
     name: "OmniChat Connect",
-    description: "Explore the future of communication with OmniChat - the innovative chat platform that seamlessly translates messages, ensures secure payments with Stripe, and offers a visually stunning interface. Elevate your conversations and experience a new era in chatting.",
+    description:
+      "Explore the future of communication with OmniChat - the innovative chat platform that seamlessly translates messages, ensures secure payments with Stripe, and offers a visually stunning interface. Elevate your conversations and experience a new era in chatting.",
     tags: [
       {
         name: "Next.js",
@@ -696,36 +730,7 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/omnichat-next",
     project_link: "https://omnichat-zeta.vercel.app",
   },
- 
-  {
-    name: "DreamCanvas",
-    description: "DreamCanvas combines React, Vite, DALL-E AI, and MongoDB to transform text prompts into unique images. With seamless navigation, image storage, and easy downloads, it offers a creative platform for users to explore, create, and enjoy a personalized gallery of AI-generated masterpieces.",
-    tags: [
-      {
-        name: "Vite",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "OpenAi",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
-    ],
-    image: dreamcanvas,
-    source_code_link: "https://github.com/Danieldo1/dream-canvas",
-    project_link: "https://dream-canvas.vercel.app/",
-  },
+
   // {
   //   name: "Retro Emporium",
   //   description: "Retro Emporium is a vibrant digital marketplace that invites users to rediscover the allure of retro aesthetics. From NFTs to pixel art/posters and fonts, the platform offers a curated selection of nostalgic digital assets, providing a seamless shopping experience and empowering sellers with personalized dashboards.",
@@ -769,7 +774,8 @@ const projects = [
   // },
   {
     name: "Draw it",
-    description: "Draw-it is an innovative web application designed to transform user doodles into realistic images through the power of artificial intelligence. This document outlines the key features and functionalities of Draw-it, which is built using the latest web technologies.",
+    description:
+      "Draw-it is an innovative web application designed to transform user doodles into realistic images through the power of artificial intelligence. This document outlines the key features and functionalities of Draw-it, which is built using the latest web technologies.",
     tags: [
       {
         name: "Next.js",
@@ -806,7 +812,8 @@ const projects = [
   },
   {
     name: "Room.io",
-    description: "Room,io is a user-friendly web app that utilizes advanced AI to transform your living spaces. Easily visualize and generate personalized room designs with themed options, making room transformations a seamless and enjoyable experience.",
+    description:
+      "Room,io is a user-friendly web app that utilizes advanced AI to transform your living spaces. Easily visualize and generate personalized room designs with themed options, making room transformations a seamless and enjoyable experience.",
     tags: [
       {
         name: "Next.js",
@@ -847,12 +854,13 @@ const projects = [
   },
   {
     name: "IntelliChat",
-    description: "IntelliChat is an AI-powered LLM (Language Model) application that uses ChatGPT4 to have interactive conversations with users. It stores user interactions in a database, allowing for seamless continuation of conversations. What makes IntelliChat unique is its ability to access the web through API endpoints, enabling it to perform Google searches and retrieve information on a wide range of topics. ",
+    description:
+      "IntelliChat is an AI-powered LLM (Language Model) application that uses ChatGPT4 to have interactive conversations with users. It stores user interactions in a database, allowing for seamless continuation of conversations. What makes IntelliChat unique is its ability to access the web through API endpoints, enabling it to perform Google searches and retrieve information on a wide range of topics. ",
     tags: [
       {
         name: "Typescript",
         color: "red-text-gradient",
-      },      
+      },
       {
         name: "Next.js",
         color: "green-text-gradient",
@@ -892,7 +900,8 @@ const projects = [
   },
   {
     name: "EarthWise",
-    description: "EarthWise is an eco-friendly e-commerce platform that offers a seamless and responsive shopping experience, complete with real-time product updates and customizable features. It focuses on user convenience with a persistent shopping cart and secure integrated checkout, ensuring a delightful and modern online shopping journey.",
+    description:
+      "EarthWise is an eco-friendly e-commerce platform that offers a seamless and responsive shopping experience, complete with real-time product updates and customizable features. It focuses on user convenience with a persistent shopping cart and secure integrated checkout, ensuring a delightful and modern online shopping journey.",
     tags: [
       {
         name: "Shadcn",
@@ -929,7 +938,8 @@ const projects = [
   },
   {
     name: "UniLink",
-    description: "UniLinks is a web application that centralizes all your social media and professional links into a single, easy-to-share profile, providing an efficient way to manage and present your online presence. It features a customizable interface with secure login, real-time analytics, and a user-friendly admin panel for profile personalization and link management.",
+    description:
+      "UniLinks is a web application that centralizes all your social media and professional links into a single, easy-to-share profile, providing an efficient way to manage and present your online presence. It features a customizable interface with secure login, real-time analytics, and a user-friendly admin panel for profile personalization and link management.",
     tags: [
       {
         name: "Next.js",
@@ -966,7 +976,8 @@ const projects = [
   },
   {
     name: "3035 Lounge",
-    description: "3035 Lounge is a custom e-menu platform for a hookah lounge, designed to facilitate easy menu browsing on mobile devices while enabling staff to update offerings in real-time through an advanced admin panel. This paid solution elevates the customer experience and simplifies menu management for the business.Since its a real project admin panel details are not provided.",
+    description:
+      "3035 Lounge is a custom e-menu platform for a hookah lounge, designed to facilitate easy menu browsing on mobile devices while enabling staff to update offerings in real-time through an advanced admin panel. This paid solution elevates the customer experience and simplifies menu management for the business.Since its a real project admin panel details are not provided.",
     tags: [
       {
         name: "Javascript",
@@ -984,7 +995,7 @@ const projects = [
         name: "Tailwind CSS",
         color: "purple-text-gradient",
       },
-   
+
       {
         name: "Next-auth",
         color: "yellow-text-gradient",
@@ -1008,7 +1019,8 @@ const projects = [
   },
   {
     name: "AIterImage",
-    description: "AIterImage is an innovative web application that harnesses the power of artificial intelligence to transform users' portrait photos into stunning pieces of art. By integrating with the Replicate AI API, AIterImage offers users the ability to reimagine their portraits with a variety of styles and backgrounds, providing a unique and personalized experience.",
+    description:
+      "AIterImage is an innovative web application that harnesses the power of artificial intelligence to transform users' portrait photos into stunning pieces of art. By integrating with the Replicate AI API, AIterImage offers users the ability to reimagine their portraits with a variety of styles and backgrounds, providing a unique and personalized experience.",
     tags: [
       {
         name: "Next.js",
@@ -1051,7 +1063,52 @@ const projects = [
     source_code_link: "https://github.com/Danieldo1/edit-it",
     project_link: "https://alter-image.vercel.app/",
   },
-  
+  {
+    name: "PetPlus+ ",
+    description:
+      "PetPlus is an e-commerce platform designed to offer a seamless shopping experience for pet owners. With a user-friendly interface, an accessible admin dashboard for efficient management, and a wide range of high-quality products, PetPlus aims to cater to the needs of all pet enthusiasts. From food and toys to grooming supplies and bedding, PetPlus is your one-stop shop for all things pets!",
+    tags: [
+      {
+        name: "Next.js",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Next-auth",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: petplus,
+    source_code_link: "https://github.com/Danieldo1/e-depo-admin",
+    project_link: "https://pet-plus-us.vercel.app/",
+  },
 ];
 // {
 //   name: "",
