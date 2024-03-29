@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import FancyText from '@carefully-coded/react-text-gradient'
+import FancyText from "@carefully-coded/react-text-gradient";
 import DarkModeToggle from "./DarkModeToggle";
-
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 
 const Navbar = () => {
-
-  const [active, setActive] = useState(" ");
+  const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
-    if(toggle){
-      document.body.classList.add('overflow-hidden')
-    }else{
-      document.body.classList.remove('overflow-hidden')
+    if (toggle) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
     }
-  }, [toggle])
+  }, [toggle]);
+
   return (
     <nav
       className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 dark:bg-primary light: bg-purple-100`}
@@ -74,17 +73,18 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden fade-in-out" : " fade-in-out"
-            } px-12 py-5 bg-gradient-to-b bg-black/70 from-black flex to-transparent absolute w-full items-center h-screen justify-center top-16 right-0 my-0 rounded-md`}
+            } px-12 py-5 bg-gradient-to-b bg-black/70 from-black flex to-transparent absolute w-full items-center h-screen justify-center top-16 right-0 my-0 `}
           >
-            <ul className=" list-none flex justify-center text-center items-center flex-col gap-10 ">
+            <ul className=" list-none text-white mb-80 flex justify-center text-center items-center flex-col gap-16 ">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
-                  className={`${
-                    active === Link.title
-                      ? "text-white"
-                      : "text-white/40 hover:text-white transition-all duration-300 ease-in-out"
-                  } font-poppins font-bold text-2xl tracking-wide cursor-pointer text-[16px] hover:underline `}
+                  className={`${active === Link.title ? "text-white" : ""} 
+                  ${
+                    active !== Link.title &&
+                    "text-white/60 hover:text-white transition-all duration-300 ease-in-out"
+                  }
+                  font-poppins font-bold text-4xl tracking-wide cursor-pointer text-[16px] hover:underline`}
                   onClick={() => {
                     setActive(Link.title);
                     setToggle(!toggle);
