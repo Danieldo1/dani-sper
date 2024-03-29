@@ -21,20 +21,27 @@ const ProjectCard = ({
   
 
   
-  const isLastThree = index >= projects.length - 10;
+  const isLastThree = index >= projects.length - 11;
 
   return (
-      <Tilt
-        options={{ max: 15, scale: 1, speed: 150 }}
-        className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full  flex"
+    <Tilt
+      options={{ max: 15, scale: 1, speed: 150 }}
+      className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full  flex"
+    >
+      <motion.div
+        className="flex-col flex justify-between "
+        variants={staggerContainer}
       >
-    <motion.div className="flex-col flex justify-between " variants={staggerContainer} >
         {/* card div */}
-        <div className={`relative w-full h-[230px] ${isLastThree ? 'mt-0' : ''}`}>
+        <div
+          className={`relative w-full h-[230px] ${isLastThree ? "mt-0" : ""}`}
+        >
           {isLastThree && (
             <div className="absolute inset-[-40px] flex justify-end  card-img_hover ">
               <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] ">
-              <p className="text-white font-bold text-[24px] z-10 animate-pulse">Top</p>
+                <p className="text-white font-bold text-[24px] z-10 animate-pulse">
+                  Top
+                </p>
               </div>
             </div>
           )}
@@ -56,8 +63,8 @@ const ProjectCard = ({
                 src={github}
                 alt="github"
                 className="w-4/5 h-4/5 object-contain"
-                />
-                {/* <p className="absolute inset-y-10 flex justify-center hover:hidden m-3 orange-text-gradient text-sm font-semibold"> GitHub</p> */}
+              />
+              {/* <p className="absolute inset-y-10 flex justify-center hover:hidden m-3 orange-text-gradient text-sm font-semibold"> GitHub</p> */}
             </div>
             {/* Live project link */}
 
@@ -80,22 +87,27 @@ const ProjectCard = ({
           <h3 className="dark:text-white font-bold text-[24px] light: text-midnight-100">
             {name}
           </h3>
-          <p className="dark:text-secondary mt-2 text-[14px] light: text-midnight-100">
+          <p className="dark:text-secondary mt-2 text-[14px] light: text-midnight-100 selection:bg-purple-300 selection:text-purple-900">
             {description}
           </p>
         </div>
-          <p className="mt-4 dark:text-white light: text-midnight-100 font-semibold underline leading-[12px] ">Stack:</p>
+        <p className="mt-4 dark:text-white light: text-midnight-100 font-semibold underline leading-[12px] ">
+          Stack:
+        </p>
 
         {/* tags */}
         <div className="mt-2 flex flex-wrap gap-2 justify-">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[16px] ${tag.color}`}>
+            <p
+              key={tag.name}
+              className={`text-[16px]  ${tag.color}`}
+            >
               {tag.name}
             </p>
           ))}
         </div>
-    </motion.div>
-      </Tilt>
+      </motion.div>
+    </Tilt>
   );
 };
 

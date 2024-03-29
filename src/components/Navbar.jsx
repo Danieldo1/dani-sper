@@ -12,6 +12,14 @@ const Navbar = () => {
 
   const [active, setActive] = useState(" ");
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    if(toggle){
+      document.body.classList.add('overflow-hidden')
+    }else{
+      document.body.classList.remove('overflow-hidden')
+    }
+  }, [toggle])
   return (
     <nav
       className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 dark:bg-primary light: bg-purple-100`}
@@ -47,8 +55,8 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title
-                  ? "dark:text-white light: text-midnight-100"
-                  : "dark:text-secondary light: text-coral-400"
+                  ? "dark:text-white light: text-midnight-100 transition-all duration-300 ease-in-out"
+                  : "dark:text-secondary light: text-coral-400 transition-all duration-300 ease-in-out"
               } dark:hover:text-white text-[18px] font-medium cursor-pointer  light: hover:text-midnight-100`}
               onClick={() => setActive(Link.title)}
             >
@@ -66,15 +74,17 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden fade-in-out" : " fade-in-out"
-            } px-12 py-5 black-gradient absolute w-full h-screen justify-center top-16 right-0 my-0 rounded-md`}
+            } px-12 py-5 bg-gradient-to-b bg-black/70 from-black flex to-transparent absolute w-full items-center h-screen justify-center top-16 right-0 my-0 rounded-md`}
           >
-            <ul className=" list-none flex justify-start text-center items-center flex-col gap-10 ">
+            <ul className=" list-none flex justify-center text-center items-center flex-col gap-10 ">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ? "text-primary/80" : "text-white"
-                  } font-poppins font-bold text-xl  cursor-pointer text-[16px] hover:underline `}
+                    active === Link.title
+                      ? "text-white"
+                      : "text-white/40 hover:text-white transition-all duration-300 ease-in-out"
+                  } font-poppins font-bold text-2xl tracking-wide cursor-pointer text-[16px] hover:underline `}
                   onClick={() => {
                     setActive(Link.title);
                     setToggle(!toggle);
