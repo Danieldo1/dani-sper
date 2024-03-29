@@ -52,6 +52,7 @@ import {
   bar,
   alterimage,
   petplus,
+  stylesync,
 } from "../assets";
 
 export const navLinks = [
@@ -603,10 +604,6 @@ const projects = [
         name: "Tailwind CSS",
         color: "blue-text-gradient",
       },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
     ],
     image: dreamcanvas,
     source_code_link: "https://github.com/Danieldo1/dream-canvas",
@@ -1108,6 +1105,60 @@ const projects = [
     image: petplus,
     source_code_link: "https://github.com/Danieldo1/e-depo-admin",
     project_link: "https://pet-plus-us.vercel.app/",
+  },
+  {
+    name: "StyleSync",
+    description:
+      "Introducing Stylesync – your go-to SaaS platform for seamless outfit coordination! Say goodbye to fashion dilemmas as our cutting-edge AI technology transforms your wardrobe into endless styling possibilities. Simply upload your clothing items, receive personalized outfit suggestions, and enjoy unlimited access with our subscription model. Elevate your style effortlessly with Stylesync – where convenience meets chic sophistication.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next-auth",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "seafoam-mint-text-gradient",
+      },
+      {
+        name: "API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Replicate",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "chocolate-gold-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: stylesync,
+    source_code_link: "https://github.com/Danieldo1/style-sync",
+    project_link: "https://style-sync.vercel.app/",
   },
 ];
 // {

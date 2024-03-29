@@ -25,7 +25,7 @@ const ProjectCard = ({
 
   return (
       <Tilt
-        options={{ max: 45, scale: 1, speed: 250 }}
+        options={{ max: 15, scale: 1, speed: 150 }}
         className="dark:bg-tertiary  light: bg-purple-200 p-5 shadow-card  light: border-2 purple-100 rounded-2xl  xs:w-[350px]  w-full  flex"
       >
     <motion.div className="flex-col flex justify-between " variants={staggerContainer} >
@@ -34,7 +34,7 @@ const ProjectCard = ({
           {isLastThree && (
             <div className="absolute inset-[-40px] flex justify-end  card-img_hover ">
               <div className="w-20 h-8 rounded-full flex justify-center items-center cursor-default shadow-sm dark:shadow-slate-50 light: shadow-black bg-[#ff6a3d] ">
-              <p className="text-white font-bold text-[24px] z-10 animate-pulse">New</p>
+              <p className="text-white font-bold text-[24px] z-10 animate-pulse">Top</p>
               </div>
             </div>
           )}

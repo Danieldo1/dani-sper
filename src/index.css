@@ -263,7 +263,27 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.seafoam-mint-text-gradient {
+  background: #2c6975; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2c6975, #6dd5ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2c6975, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slate-silver-text-gradient {
+  background: #65787d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #65787d, #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #65787d, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chocolate-gold-text-gradient {
+  background: #6b4e31; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6b4e31, #c0a080); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6b4e31, #c0a080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .transparent-color{
   color: transparent;
 }

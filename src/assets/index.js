@@ -45,6 +45,7 @@ import unilinkw from './unilinkw.png';
 import bar from './bar.png';
 import alterimage from './alterimage.png';
 import petplus from './pet_plus.jpg';
+import stylesync from './stylesync.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -93,6 +94,7 @@ export {
   bar,
   alterimage,
   petplus,
+stylesync,
 
   travelapp,
   ecom,
