@@ -49,7 +49,7 @@ import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
 import htmlCert from './pngScreen/htmlCert.png';
 import IntJs from './pngScreen/intJs.png';
-import jQuery from './pngScreen/jquery.png';
+import jQuery from './pngScreen/jQuery.png';
 import learnReact from './pngScreen/learnReact.png';
 import reduxReact from './pngScreen/reduxReact.png';
 import tS from './pngScreen/tS.png';
@@ -59,7 +59,7 @@ import webDev from './pngScreen/webDev.png';
 
 import facebookPink from "./social/facebookPink.svg";
 import instagramPink from "./social/InstaPink.svg";
-import linkedinPink from "./social/linkedinPink.svg";
+import linkedinPink from "./social/linkedInPink.svg";
 import githubPink from "./social/githubPink.svg";
 
 
