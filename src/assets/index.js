@@ -44,6 +44,7 @@ import bar from './bar.png';
 import alterimage from './alterimage.png';
 import petplus from './pet_plus.jpg';
 import stylesync from './stylesync.png';
+import surprizeus from './surprizeus.png';
 
 import colorDesign from './pngScreen/colorDesign.png';
 import cssInJs from './pngScreen/cssInJs.png';
@@ -93,6 +94,7 @@ export {
   alterimage,
   petplus,
 stylesync,
+surprizeus,
 
   travelapp,
   ecom,

@@ -53,6 +53,7 @@ import {
   alterimage,
   petplus,
   stylesync,
+  surprizeus,
 } from "../assets";
 
 export const navLinks = [
@@ -630,10 +631,10 @@ const projects = [
         name: "API",
         color: "green-text-gradient",
       },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
+      // {
+      //   name: "N",
+      //   color: "transparent-color",
+      // },
     ],
     image: moviehub,
     source_code_link: "https://github.com/Danieldo1/movie-hub",
@@ -718,10 +719,10 @@ const projects = [
         name: "Tailwind CSS",
         color: "blue-text-gradient",
       },
-      {
-        name: "N",
-        color: "transparent-color",
-      },
+      // {
+      //   name: "N",
+      //   color: "transparent-color",
+      // },
     ],
     image: OmniChat,
     source_code_link: "https://github.com/Danieldo1/omnichat-next",
@@ -1159,6 +1160,51 @@ const projects = [
     image: stylesync,
     source_code_link: "https://github.com/Danieldo1/style-sync",
     project_link: "https://style-sync.vercel.app/",
+  },
+  {
+    name: "SurprizeUs",
+    description: "Surprize.us is an innovative online gaming platform where players participate in community-driven games with fair play and transparent prize pools. Offering unique games like Piggy Bank, Picture Pick, and the new Answer Rush, Surprize.us provides an exciting and equitable gaming experience.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Convex",
+        color: " green-text-gradient",
+      },
+      {
+        name: "Auth0",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Stripe/Plisio",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "custom-text-gradient",
+      },
+      {
+        name: "N",
+        color: "transparent-color",
+      },
+    ],
+    image: surprizeus,
+    source_code_link: "https://github.com/Danieldo1/surprize",
+    project_link: "https://surprize.us",
   },
 ];
 // {
