@@ -4,8 +4,6 @@ import chrome from "./chrome.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-
-
 import HPS from './company/HPS.png';
 import uibs from './company/uibs.png';
 import goldr from './company/goldr.png';
@@ -54,7 +52,7 @@ import IntJs from './pngScreen/intJs.png';
 import jQuery from './pngScreen/jquery.png';
 import learnReact from './pngScreen/learnReact.png';
 import reduxReact from './pngScreen/reduxReact.png';
-import tS from './pngScreen/ts.png';
+import tS from './pngScreen/tS.png';
 import uiAndUx from './pngScreen/uiAndUx.png';
 import vue from './pngScreen/vue.png';
 import webDev from './pngScreen/webDev.png';
